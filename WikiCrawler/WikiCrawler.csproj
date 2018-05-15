@@ -1,0 +1,11 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="HtmlAgilityPack" Version="1.8.2" />
+    <PackageReference Include="Microsoft.Extensions.Logging" Version="2.1.0-rc1-final" />
+    <PackageReference Include="System.Reactive" Version="4.0.0-preview.2.build.379" />
+  </ItemGroup>
+</Project>

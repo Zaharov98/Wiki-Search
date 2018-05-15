@@ -8,6 +8,11 @@ SearchPage/.idea
 SearchPage/bin
 SearchPage/obj
 
+# WikiCrawler project
+WikiCrawler/.idea
+WikiCrawler/bin
+WikiCrawler/obj
+
 
 # User-specific files
 *.suo
