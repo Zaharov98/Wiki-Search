@@ -1,0 +1,16 @@
+﻿@model IList<string>
+
+@{
+    ViewBag.Title = "title";
+    Layout = "_Layout";
+}
+
+<ul>
+    @foreach (var searchRes in Model)
+    {
+        <li>
+            <h3>@searchRes</h3>
+            <text>Rating 0.666</text>
+        </li>
+    }
+</ul>
