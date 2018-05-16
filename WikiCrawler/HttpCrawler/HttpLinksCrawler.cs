@@ -8,6 +8,8 @@ using System.Reactive.Subjects;
 using System.Runtime.InteropServices;
 using Microsoft.Extensions.Logging;
 using HtmlAgilityPack;
+using WikiCrawler;
+using WikiCrawler.SizedCache;
 
 
 namespace WikiCrawler.HttpCrawler
@@ -23,13 +25,14 @@ namespace WikiCrawler.HttpCrawler
         public HttpLinksCrawler(ILogger<HttpLinksCrawler> logger)
         {
             _urisSubject = new Subject<string>();
-            _httpClient = new HttpClient();
+            _httpClient = new HttpClient() { Timeout = TimeSpan.FromSeconds(10) };
             _log = logger;
         }
 
         
         public void Dispose()
         {
+            _urisSubject.Dispose();
             _httpClient.Dispose();
         }
 
@@ -43,17 +46,21 @@ namespace WikiCrawler.HttpCrawler
         {
             try
             {
-                List<Uri> fetchedUris = new List<Uri>() {new Uri(startUri)};
+                ISet<Uri> fetchedUris = new HashSet<Uri>() { new Uri(startUri) };
             
                 while (fetchedUris.Count > 0)
                 {
                     foreach (Uri uri in fetchedUris)
                     {
-                        string htmlCode = await _httpClient.GetStringAsync(uri);
+                        string htmlPageCode = await _httpClient.GetStringAsync(uri);
+                        fetchedUris.Remove(uri);
 
-                        var docUris = FetchUris(htmlCode);
+                        var htmlDoc = ParseHtmlCode(htmlPageCode);
+                        var docUris = FetchHtmDocUris(htmlDoc);
                         foreach (var fetched in docUris) {
                             _log.LogInformation($"Visited: {fetched}");
+
+                            fetchedUris.Add(fetched);
                             _urisSubject.OnNext(fetched.ToString());
                         }
                     }
@@ -61,17 +68,23 @@ namespace WikiCrawler.HttpCrawler
             }
             catch (Exception e)
             {
-                Console.WriteLine(e);
+                _log.LogError($"Exeption in HttpCrawler: {e.Message}");
                 throw;
             }  
         }
 
-        
-        private IEnumerable<Uri> FetchUris(string htmlCode)
+
+        private HtmlDocument ParseHtmlCode(string htmlCode)
         {
             HtmlDocument htmlDoc = new HtmlDocument();
             htmlDoc.LoadHtml(htmlCode);
 
+            return htmlDoc;
+        }
+
+        
+        private IEnumerable<Uri> FetchHtmDocUris(HtmlDocument htmlDoc)
+        {
             var fetchedUris = new List<Uri>();
             IEnumerable<HtmlNode> refNodes = htmlDoc.DocumentNode.SelectNodes("//a");
             
@@ -102,7 +115,7 @@ namespace WikiCrawler.HttpCrawler
                     return false;
                 }
             }
-            catch (Exception e) {
+            catch (Exception) {
                 return false;
             }   
         }
