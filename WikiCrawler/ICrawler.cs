@@ -2,7 +2,7 @@
 using System.Reactive;
 using System.Threading.Tasks;
 
-namespace WikiCrawler.HttpCrawler
+namespace WikiCrawler
 {
     public interface ICrawler : IDisposable
     {

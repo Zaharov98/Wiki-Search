@@ -19,6 +19,10 @@ namespace WikiCrawler.HttpCrawler
         private readonly Subject<string> _urisSubject;
         private readonly HttpClient _httpClient;
         private readonly ILogger<HttpLinksCrawler> _log;
+        // TODO: implement cache of visited links
+        // TODO: implement uri filter
+        // private ICache<string> _visitedUrisCache;
+        // private IUriFilter _uriFilter;
         
         public IObservable<string> NewUris { get => _urisSubject; }
 
@@ -41,36 +45,51 @@ namespace WikiCrawler.HttpCrawler
             _urisSubject.Subscribe(onNext, onComplete);
         }
 
-        
+
         public async Task StartCrawling(string startUri)
         {
-            try
+            if (!ValidParsedUri(startUri)) {
+                throw new ArgumentException("Invalid initial uri for crawling");
+            }
+
+            ISet<string> fetchedUris = new HashSet<string>() { startUri };
+
+            while (fetchedUris.Count > 0)
             {
-                ISet<Uri> fetchedUris = new HashSet<Uri>() { new Uri(startUri) };
-            
-                while (fetchedUris.Count > 0)
-                {
-                    foreach (Uri uri in fetchedUris)
+                ISet<string> loopedUris = new HashSet<string>();  // to avoid modifying of fetchedUris while iterating
+                foreach (var uri in fetchedUris) {
+                    try
                     {
                         string htmlPageCode = await _httpClient.GetStringAsync(uri);
-                        fetchedUris.Remove(uri);
+                        loopedUris.Add(uri);
 
                         var htmlDoc = ParseHtmlCode(htmlPageCode);
                         var docUris = FetchHtmDocUris(htmlDoc);
                         foreach (var fetched in docUris) {
                             _log.LogInformation($"Visited: {fetched}");
 
-                            fetchedUris.Add(fetched);
-                            _urisSubject.OnNext(fetched.ToString());
+                            loopedUris.Add(fetched);
+                            _urisSubject.OnNext(fetched);
                         }
+                    } 
+                    catch (AggregateException e)
+                    { // Thrown when in _httpClient.GetStringAsync(uri) uri is invalid
+                        _log.LogWarning($"Invalid uri: {e.Message}");
+                    }
+                    catch (HttpRequestException e)
+                    { // Thrown then HttpClient connection timeout passed
+                        _log.LogWarning($"Request not successed: {e.Message}");
+                    }
+                    catch (Exception e) {
+                        _log.LogError($"Error while crawling: {e.Message}");
+                        break;
                     }
                 }
+
+                fetchedUris.SymmetricExceptWith(loopedUris);
             }
-            catch (Exception e)
-            {
-                _log.LogError($"Exeption in HttpCrawler: {e.Message}");
-                throw;
-            }  
+
+            _urisSubject.OnCompleted();
         }
 
 
@@ -83,16 +102,16 @@ namespace WikiCrawler.HttpCrawler
         }
 
         
-        private IEnumerable<Uri> FetchHtmDocUris(HtmlDocument htmlDoc)
+        private IEnumerable<string> FetchHtmDocUris(HtmlDocument htmlDoc)
         {
-            var fetchedUris = new List<Uri>();
+            var fetchedUris = new List<string>();
             IEnumerable<HtmlNode> refNodes = htmlDoc.DocumentNode.SelectNodes("//a");
             
             foreach (HtmlNode node in refNodes ?? Array.Empty<HtmlNode>())
             {
                 var href = node.GetAttributeValue("href", null);
                 if (ValidParsedUri(href)) {
-                    fetchedUris.Add(new Uri(href));
+                    fetchedUris.Add(href);
                 }
             }
 
@@ -104,10 +123,11 @@ namespace WikiCrawler.HttpCrawler
         {
             try
             {
-                if (uri != null && uri != "#")
+                // If Uri instance created and it's absolute, uri is valid
+                var parsedUri = new Uri(uri);
+
+                if (uri != "#" && (parsedUri.Scheme == "http" || parsedUri.Scheme == "https"))
                 {
-                    // If Uri instance created, uri is valid
-                    var parsedUri = new Uri(uri);
                     return true;
                 }
                 else
