@@ -9,7 +9,6 @@ using System.Runtime.InteropServices;
 using Microsoft.Extensions.Logging;
 using HtmlAgilityPack;
 using WikiCrawler;
-using WikiCrawler.SizedCache;
 
 
 namespace WikiCrawler.HttpCrawler
@@ -19,17 +18,21 @@ namespace WikiCrawler.HttpCrawler
         private readonly Subject<string> _urisSubject;
         private readonly HttpClient _httpClient;
         private readonly ILogger<HttpLinksCrawler> _log;
-        // TODO: implement cache of visited links
-        // TODO: implement uri filter
-        // private ICache<string> _visitedUrisCache;
-        // private IUriFilter _uriFilter;
+        private readonly Func<string, bool> _isAcceptableUri;
         
         public IObservable<string> NewUris { get => _urisSubject; }
 
-        public HttpLinksCrawler(ILogger<HttpLinksCrawler> logger)
+        public HttpLinksCrawler(Func<string, bool> isAcceptable)
         {
             _urisSubject = new Subject<string>();
             _httpClient = new HttpClient() { Timeout = TimeSpan.FromSeconds(10) };
+            _log = new LoggerFactory().CreateLogger<HttpLinksCrawler>();
+            _isAcceptableUri = isAcceptable;
+        }
+
+        public HttpLinksCrawler(Func<string, bool> isAcceptable, ILogger<HttpLinksCrawler> logger)
+            : this(isAcceptable)
+        {
             _log = logger;
         }
 
@@ -48,7 +51,7 @@ namespace WikiCrawler.HttpCrawler
 
         public async Task StartCrawling(string startUri)
         {
-            if (!ValidParsedUri(startUri)) {
+            if (!ValidParsedHttpUri(startUri)) {
                 throw new ArgumentException("Invalid initial uri for crawling");
             }
 
@@ -64,12 +67,13 @@ namespace WikiCrawler.HttpCrawler
                         loopedUris.Add(uri);
 
                         var htmlDoc = ParseHtmlCode(htmlPageCode);
-                        var docUris = FetchHtmDocUris(htmlDoc);
+                        var docUris = FetchHtmDocUris(baseUri: uri, htmlDoc);
                         foreach (var fetched in docUris) {
-                            _log.LogInformation($"Visited: {fetched}");
-
-                            loopedUris.Add(fetched);
-                            _urisSubject.OnNext(fetched);
+                            if (_isAcceptableUri(fetched)) {
+                                _log.LogInformation($"Visited: {fetched}");
+                                loopedUris.Add(fetched);
+                                _urisSubject.OnNext(fetched);
+                            }
                         }
                     } 
                     catch (AggregateException e)
@@ -86,7 +90,7 @@ namespace WikiCrawler.HttpCrawler
                     }
                 }
 
-                fetchedUris.SymmetricExceptWith(loopedUris);
+                fetchedUris.SymmetricExceptWith(loopedUris);  // Operation remove visited uris
             }
 
             _urisSubject.OnCompleted();
@@ -102,15 +106,17 @@ namespace WikiCrawler.HttpCrawler
         }
 
         
-        private IEnumerable<string> FetchHtmDocUris(HtmlDocument htmlDoc)
+        private IEnumerable<string> FetchHtmDocUris(string baseUri, HtmlDocument htmlDoc)
         {
             var fetchedUris = new List<string>();
             IEnumerable<HtmlNode> refNodes = htmlDoc.DocumentNode.SelectNodes("//a");
             
             foreach (HtmlNode node in refNodes ?? Array.Empty<HtmlNode>())
             {
-                var href = node.GetAttributeValue("href", null);
-                if (ValidParsedUri(href)) {
+                var href = node.GetAttributeValue("href", null) ?? "";
+                href = IsRelativeUri(href) ? baseUri + href : href;
+
+                if (ValidParsedHttpUri(href)) {
                     fetchedUris.Add(href);
                 }
             }
@@ -119,11 +125,11 @@ namespace WikiCrawler.HttpCrawler
         }
 
         
-        private bool ValidParsedUri(string uri)
+        private bool ValidParsedHttpUri(string uri)
         {
             try
             {
-                // If Uri instance created and it's absolute, uri is valid
+                // If Uri instance created, uri is valid
                 var parsedUri = new Uri(uri);
 
                 if (uri != "#" && (parsedUri.Scheme == "http" || parsedUri.Scheme == "https"))
@@ -139,5 +145,15 @@ namespace WikiCrawler.HttpCrawler
                 return false;
             }   
         }
+
+
+        private bool IsRelativeUri(string uri)
+        {
+            return uri.StartsWith('/');
+        }
     }
+
+
+
+
 }
