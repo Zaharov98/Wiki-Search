@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.Threading.Tasks;
 using Microsoft.Extensions;
 using Microsoft.Extensions.Logging;
@@ -43,7 +44,7 @@ namespace WikiCrawler
             }
             catch (Exception e)
             {
-                Console.WriteLine($"Exeption: {e.Message}");
+                Console.WriteLine($"Exeption: {e.Message}; Trace: {e.StackTrace}");
             }
         }
 

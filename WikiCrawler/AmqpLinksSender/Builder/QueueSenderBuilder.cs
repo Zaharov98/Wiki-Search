@@ -23,8 +23,8 @@ namespace WikiCrawler.AmqpLinksSender.Builder
         public QueueSender Build()
         {
             QueueSender processor = new QueueSender(
-                logger: _log, _hostName, _queueName, durable: _durable, exclusive: _exclusive,
-                autoDelete: _autoDelete, arguments: _arguments
+                logger: _log, hostName: _hostName, queueName: _queueName, durable: _durable, 
+                exclusive: _exclusive, autoDelete: _autoDelete, arguments: _arguments
             );
 
             return processor;

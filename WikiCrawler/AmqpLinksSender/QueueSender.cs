@@ -26,6 +26,8 @@ namespace WikiCrawler.AmqpLinksSender
                          bool durable, bool exclusive, bool autoDelete,
                          IDictionary<string, object> arguments)
         {
+            _hostName = hostName;
+            _queueName = queueName;
             _durable = durable;
             _exclusive = exclusive;
             _autoDelete = autoDelete;
