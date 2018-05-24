@@ -13,6 +13,11 @@ WikiCrawler/.idea
 WikiCrawler/bin
 WikiCrawler/obj
 
+# SearchDb project
+SearchDb/.vs
+SearchDb/SearchDbApi/bin
+SearchDb/SearchDbApi/obj
+
 
 # User-specific files
 *.suo
