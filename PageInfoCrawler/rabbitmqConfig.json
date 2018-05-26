@@ -1,0 +1,8 @@
+﻿{
+  "HostName": "localhost",
+  "QueueName": "links",
+  "Durable": true,
+  "Exclusive": false,
+  "AutoDelete": false,
+  "Arguments": null
+}

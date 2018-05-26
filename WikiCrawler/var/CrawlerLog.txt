@@ -1,215 +1,646 @@
-2018/05/21 23:41:01.203|INFO|Visited: https://en.wikipedia.org/wiki/Main_Page/wiki/Wikipedia |WikiCrawler.HttpCrawler.HttpLinksCrawler|
-2018/05/21 23:41:01.373|INFO|Visited: https://en.wikipedia.org/wiki/Main_Page/wiki/Free_content |WikiCrawler.HttpCrawler.HttpLinksCrawler|
-2018/05/21 23:41:01.373|INFO|Visited: https://en.wikipedia.org/wiki/Main_Page/wiki/Encyclopedia |WikiCrawler.HttpCrawler.HttpLinksCrawler|
-2018/05/21 23:41:01.735|INFO|Visited: https://en.wikipedia.org/wiki/Main_Page/wiki/Wikipedia:Introduction |WikiCrawler.HttpCrawler.HttpLinksCrawler|
-2018/05/21 23:41:01.749|INFO|Visited: https://en.wikipedia.org/wiki/Main_Page/wiki/Special:Statistics |WikiCrawler.HttpCrawler.HttpLinksCrawler|
-2018/05/21 23:41:01.749|INFO|Visited: https://en.wikipedia.org/wiki/Main_Page/wiki/English_language |WikiCrawler.HttpCrawler.HttpLinksCrawler|
-2018/05/21 23:41:01.765|INFO|Visited: https://en.wikipedia.org/wiki/Main_Page/wiki/Portal:Arts |WikiCrawler.HttpCrawler.HttpLinksCrawler|
-2018/05/21 23:41:01.809|INFO|Visited: https://en.wikipedia.org/wiki/Main_Page/wiki/Portal:Biography |WikiCrawler.HttpCrawler.HttpLinksCrawler|
-2018/05/21 23:41:01.809|INFO|Visited: https://en.wikipedia.org/wiki/Main_Page/wiki/Portal:Geography |WikiCrawler.HttpCrawler.HttpLinksCrawler|
-2018/05/21 23:41:01.829|INFO|Visited: https://en.wikipedia.org/wiki/Main_Page/wiki/Portal:History |WikiCrawler.HttpCrawler.HttpLinksCrawler|
-2018/05/21 23:41:01.840|INFO|Visited: https://en.wikipedia.org/wiki/Main_Page/wiki/Portal:Mathematics |WikiCrawler.HttpCrawler.HttpLinksCrawler|
-2018/05/21 23:41:01.855|INFO|Visited: https://en.wikipedia.org/wiki/Main_Page/wiki/Portal:Science |WikiCrawler.HttpCrawler.HttpLinksCrawler|
-2018/05/21 23:41:01.855|INFO|Visited: https://en.wikipedia.org/wiki/Main_Page/wiki/Portal:Society |WikiCrawler.HttpCrawler.HttpLinksCrawler|
-2018/05/21 23:41:01.907|INFO|Visited: https://en.wikipedia.org/wiki/Main_Page/wiki/Portal:Technology |WikiCrawler.HttpCrawler.HttpLinksCrawler|
-2018/05/21 23:41:01.918|INFO|Visited: https://en.wikipedia.org/wiki/Main_Page/wiki/Portal:Contents/Portals |WikiCrawler.HttpCrawler.HttpLinksCrawler|
-2018/05/21 23:41:01.934|INFO|Visited: https://en.wikipedia.org/wiki/Main_Page/wiki/File:Augustus_O_Stanley.jpg |WikiCrawler.HttpCrawler.HttpLinksCrawler|
-2018/05/21 23:41:01.949|INFO|Visited: https://en.wikipedia.org/wiki/Main_Page/wiki/Augustus_Owsley_Stanley |WikiCrawler.HttpCrawler.HttpLinksCrawler|
-2018/05/21 23:41:02.302|INFO|Visited: https://en.wikipedia.org/wiki/Main_Page/wiki/Kentucky |WikiCrawler.HttpCrawler.HttpLinksCrawler|
-2018/05/21 23:41:02.311|INFO|Visited: https://en.wikipedia.org/wiki/Main_Page/wiki/Democratic_Party_(United_States) |WikiCrawler.HttpCrawler.HttpLinksCrawler|
-2018/05/21 23:41:02.797|INFO|Visited: https://en.wikipedia.org/wiki/Main_Page/wiki/List_of_Governors_of_Kentucky |WikiCrawler.HttpCrawler.HttpLinksCrawler|
-2018/05/21 23:41:02.813|INFO|Visited: https://en.wikipedia.org/wiki/Main_Page/wiki/Kentucky%27s_2nd_congressional_district |WikiCrawler.HttpCrawler.HttpLinksCrawler|
-2018/05/21 23:41:03.127|INFO|Visited: https://en.wikipedia.org/wiki/Main_Page/wiki/United_States_House_of_Representatives |WikiCrawler.HttpCrawler.HttpLinksCrawler|
-2018/05/21 23:41:03.139|INFO|Visited: https://en.wikipedia.org/wiki/Main_Page/wiki/Progressivism_in_the_United_States |WikiCrawler.HttpCrawler.HttpLinksCrawler|
-2018/05/21 23:41:03.151|INFO|Visited: https://en.wikipedia.org/wiki/Main_Page/wiki/Competition_law |WikiCrawler.HttpCrawler.HttpLinksCrawler|
-2018/05/21 23:41:03.151|INFO|Visited: https://en.wikipedia.org/wiki/Main_Page/wiki/American_Tobacco_Company |WikiCrawler.HttpCrawler.HttpLinksCrawler|
-2018/05/21 23:41:03.168|INFO|Visited: https://en.wikipedia.org/wiki/Main_Page/wiki/U.S._Supreme_Court |WikiCrawler.HttpCrawler.HttpLinksCrawler|
-2018/05/21 23:41:03.612|INFO|Visited: https://en.wikipedia.org/wiki/Main_Page/wiki/United_States_Steel |WikiCrawler.HttpCrawler.HttpLinksCrawler|
-2018/05/21 23:41:03.621|INFO|Visited: https://en.wikipedia.org/wiki/Main_Page/wiki/Clayton_Antitrust_Act |WikiCrawler.HttpCrawler.HttpLinksCrawler|
-2018/05/21 23:41:03.642|INFO|Visited: https://en.wikipedia.org/wiki/Main_Page/wiki/Lowell_H._Harrison |WikiCrawler.HttpCrawler.HttpLinksCrawler|
-2018/05/21 23:41:03.657|INFO|Visited: https://en.wikipedia.org/wiki/Main_Page/wiki/Campaign_finance_reform |WikiCrawler.HttpCrawler.HttpLinksCrawler|
-2018/05/21 23:41:03.673|INFO|Visited: https://en.wikipedia.org/wiki/Main_Page/wiki/Workers%27_compensation |WikiCrawler.HttpCrawler.HttpLinksCrawler|
-2018/05/21 23:41:03.687|INFO|Visited: https://en.wikipedia.org/wiki/Main_Page/wiki/Arlington,_Washington |WikiCrawler.HttpCrawler.HttpLinksCrawler|
-2018/05/21 23:41:03.714|INFO|Visited: https://en.wikipedia.org/wiki/Main_Page/wiki/Dungeons_%26_Dragons_(album) |WikiCrawler.HttpCrawler.HttpLinksCrawler|
-2018/05/21 23:41:03.734|INFO|Visited: https://en.wikipedia.org/wiki/Main_Page/wiki/History_of_Gillingham_F.C. |WikiCrawler.HttpCrawler.HttpLinksCrawler|
-2018/05/21 23:41:03.750|INFO|Visited: https://en.wikipedia.org/wiki/Main_Page/wiki/Wikipedia:Today%27s_featured_article/May_2018 |WikiCrawler.HttpCrawler.HttpLinksCrawler|
-2018/05/21 23:41:03.762|INFO|Visited: https://en.wikipedia.org/wiki/Main_Page/wiki/Wikipedia:Featured_articles |WikiCrawler.HttpCrawler.HttpLinksCrawler|
-2018/05/21 23:41:03.822|INFO|Visited: https://en.wikipedia.org/wiki/Main_Page/wiki/File:ESC2016_-_Armenia_Meet_%26_Greet_22.jpg |WikiCrawler.HttpCrawler.HttpLinksCrawler|
-2018/05/21 23:41:03.861|INFO|Visited: https://en.wikipedia.org/wiki/Main_Page/wiki/Iveta_Mukuchyan |WikiCrawler.HttpCrawler.HttpLinksCrawler|
-2018/05/21 23:41:03.872|INFO|Visited: https://en.wikipedia.org/wiki/Main_Page/wiki/Swallow_Music_Awards |WikiCrawler.HttpCrawler.HttpLinksCrawler|
-2018/05/21 23:41:03.918|INFO|Visited: https://en.wikipedia.org/wiki/Main_Page/wiki/Group_testing |WikiCrawler.HttpCrawler.HttpLinksCrawler|
-2018/05/21 23:41:03.949|INFO|Visited: https://en.wikipedia.org/wiki/Main_Page/wiki/Jamil_Smith_(journalist) |WikiCrawler.HttpCrawler.HttpLinksCrawler|
-2018/05/21 23:41:03.971|INFO|Visited: https://en.wikipedia.org/wiki/Main_Page/wiki/Time_(magazine) |WikiCrawler.HttpCrawler.HttpLinksCrawler|
-2018/05/21 23:41:03.984|INFO|Visited: https://en.wikipedia.org/wiki/Main_Page/wiki/List_of_Marvel_Cinematic_Universe_films |WikiCrawler.HttpCrawler.HttpLinksCrawler|
-2018/05/21 23:41:04.002|INFO|Visited: https://en.wikipedia.org/wiki/Main_Page/wiki/Black_Panther_(film) |WikiCrawler.HttpCrawler.HttpLinksCrawler|
-2018/05/21 23:41:04.016|INFO|Visited: https://en.wikipedia.org/wiki/Main_Page/wiki/2014_Macau_Grand_Prix |WikiCrawler.HttpCrawler.HttpLinksCrawler|
-2018/05/21 23:41:04.034|INFO|Visited: https://en.wikipedia.org/wiki/Main_Page/wiki/Tatiana_Calder%C3%B3n |WikiCrawler.HttpCrawler.HttpLinksCrawler|
-2018/05/21 23:41:04.046|INFO|Visited: https://en.wikipedia.org/wiki/Main_Page/wiki/Macau_Grand_Prix |WikiCrawler.HttpCrawler.HttpLinksCrawler|
-2018/05/21 23:41:04.065|INFO|Visited: https://en.wikipedia.org/wiki/Main_Page/wiki/Cathy_Muller |WikiCrawler.HttpCrawler.HttpLinksCrawler|
-2018/05/21 23:41:04.131|INFO|Visited: https://en.wikipedia.org/wiki/Main_Page/wiki/1983_Macau_Grand_Prix |WikiCrawler.HttpCrawler.HttpLinksCrawler|
-2018/05/21 23:41:04.178|INFO|Visited: https://en.wikipedia.org/wiki/Main_Page/wiki/James_I_of_Aragon |WikiCrawler.HttpCrawler.HttpLinksCrawler|
-2018/05/21 23:41:04.186|INFO|Visited: https://en.wikipedia.org/wiki/Main_Page/wiki/Conquest_of_Murcia_(1265%E2%80%9366) |WikiCrawler.HttpCrawler.HttpLinksCrawler|
-2018/05/21 23:41:04.231|INFO|Visited: https://en.wikipedia.org/wiki/Main_Page/wiki/Piscicolidae |WikiCrawler.HttpCrawler.HttpLinksCrawler|
-2018/05/21 23:41:04.245|INFO|Visited: https://en.wikipedia.org/wiki/Main_Page/wiki/Acanthobdella_peledina |WikiCrawler.HttpCrawler.HttpLinksCrawler|
-2018/05/21 23:41:04.262|INFO|Visited: https://en.wikipedia.org/wiki/Main_Page/wiki/Baron_Kilkeel |WikiCrawler.HttpCrawler.HttpLinksCrawler|
-2018/05/21 23:41:04.300|INFO|Visited: https://en.wikipedia.org/wiki/Main_Page/wiki/Prince_Harry,_Duke_of_Sussex |WikiCrawler.HttpCrawler.HttpLinksCrawler|
-2018/05/21 23:41:04.310|INFO|Visited: https://en.wikipedia.org/wiki/Main_Page/wiki/Elizabeth_II |WikiCrawler.HttpCrawler.HttpLinksCrawler|
-2018/05/21 23:41:04.346|INFO|Visited: https://en.wikipedia.org/wiki/Main_Page/wiki/116th_Infantry_Regiment_(United_States) |WikiCrawler.HttpCrawler.HttpLinksCrawler|
-2018/05/21 23:41:04.354|INFO|Visited: https://en.wikipedia.org/wiki/Main_Page/wiki/Battle_honour |WikiCrawler.HttpCrawler.HttpLinksCrawler|
-2018/05/21 23:41:04.375|INFO|Visited: https://en.wikipedia.org/wiki/Main_Page/wiki/Wikipedia:Recent_additions |WikiCrawler.HttpCrawler.HttpLinksCrawler|
-2018/05/21 23:41:04.391|INFO|Visited: https://en.wikipedia.org/wiki/Main_Page/wiki/Wikipedia:Your_first_article |WikiCrawler.HttpCrawler.HttpLinksCrawler|
-2018/05/21 23:41:04.410|INFO|Visited: https://en.wikipedia.org/wiki/Main_Page/wiki/Template_talk:Did_you_know |WikiCrawler.HttpCrawler.HttpLinksCrawler|
-2018/05/21 23:41:04.418|INFO|Visited: https://en.wikipedia.org/wiki/Main_Page/wiki/File:Prince_Harry_and_Meghan_Markle.jpg |WikiCrawler.HttpCrawler.HttpLinksCrawler|
-2018/05/21 23:41:04.435|INFO|Visited: https://en.wikipedia.org/wiki/Main_Page/wiki/Shoplifters_(film) |WikiCrawler.HttpCrawler.HttpLinksCrawler|
-2018/05/21 23:41:04.449|INFO|Visited: https://en.wikipedia.org/wiki/Main_Page/wiki/Palme_d%27Or |WikiCrawler.HttpCrawler.HttpLinksCrawler|
-2018/05/21 23:41:04.470|INFO|Visited: https://en.wikipedia.org/wiki/Main_Page/wiki/2018_Cannes_Film_Festival |WikiCrawler.HttpCrawler.HttpLinksCrawler|
-2018/05/21 23:41:04.481|INFO|Visited: https://en.wikipedia.org/wiki/Main_Page/wiki/Wedding_of_Prince_Harry_and_Meghan_Markle |WikiCrawler.HttpCrawler.HttpLinksCrawler|
-2018/05/21 23:41:04.481|INFO|Visited: https://en.wikipedia.org/wiki/Main_Page/wiki/Meghan,_Duchess_of_Sussex |WikiCrawler.HttpCrawler.HttpLinksCrawler|
-2018/05/21 23:41:04.501|INFO|Visited: https://en.wikipedia.org/wiki/Main_Page/wiki/Cubana_de_Aviaci%C3%B3n_Flight_972 |WikiCrawler.HttpCrawler.HttpLinksCrawler|
-2018/05/21 23:41:04.532|INFO|Visited: https://en.wikipedia.org/wiki/Main_Page/wiki/Havana |WikiCrawler.HttpCrawler.HttpLinksCrawler|
-2018/05/21 23:41:04.568|INFO|Visited: https://en.wikipedia.org/wiki/Main_Page/wiki/Israel_Defense_Forces |WikiCrawler.HttpCrawler.HttpLinksCrawler|
-2018/05/21 23:41:04.574|INFO|Visited: https://en.wikipedia.org/wiki/Main_Page/wiki/2018_Gaza_border_protests#14_May |WikiCrawler.HttpCrawler.HttpLinksCrawler|
-2018/05/21 23:41:04.593|INFO|Visited: https://en.wikipedia.org/wiki/Main_Page/wiki/Gaza_Strip |WikiCrawler.HttpCrawler.HttpLinksCrawler|
-2018/05/21 23:41:04.607|INFO|Visited: https://en.wikipedia.org/wiki/Main_Page/wiki/Embassy_of_the_United_States,_Jerusalem |WikiCrawler.HttpCrawler.HttpLinksCrawler|
-2018/05/21 23:41:04.625|INFO|Visited: https://en.wikipedia.org/wiki/Main_Page/wiki/Association_football |WikiCrawler.HttpCrawler.HttpLinksCrawler|
-2018/05/21 23:41:04.640|INFO|Visited: https://en.wikipedia.org/wiki/Main_Page/wiki/2017%E2%80%9318_Premier_League |WikiCrawler.HttpCrawler.HttpLinksCrawler|
-2018/05/21 23:41:04.654|INFO|Visited: https://en.wikipedia.org/wiki/Main_Page/wiki/Manchester_City_F.C. |WikiCrawler.HttpCrawler.HttpLinksCrawler|
-2018/05/21 23:41:04.667|INFO|Visited: https://en.wikipedia.org/wiki/Main_Page/wiki/Portal:Current_events |WikiCrawler.HttpCrawler.HttpLinksCrawler|
-2018/05/21 23:41:04.667|INFO|Visited: https://en.wikipedia.org/wiki/Main_Page/wiki/2018_Democratic_Republic_of_the_Congo_Ebola_virus_outbreak |WikiCrawler.HttpCrawler.HttpLinksCrawler|
-2018/05/21 23:41:04.684|INFO|Visited: https://en.wikipedia.org/wiki/Main_Page/wiki/Deaths_in_2018 |WikiCrawler.HttpCrawler.HttpLinksCrawler|
-2018/05/21 23:41:04.700|INFO|Visited: https://en.wikipedia.org/wiki/Main_Page/wiki/Ernst_Sieber |WikiCrawler.HttpCrawler.HttpLinksCrawler|
-2018/05/21 23:41:04.716|INFO|Visited: https://en.wikipedia.org/wiki/Main_Page/wiki/Bernard_Lewis |WikiCrawler.HttpCrawler.HttpLinksCrawler|
-2018/05/21 23:41:04.734|INFO|Visited: https://en.wikipedia.org/wiki/Main_Page/wiki/Billy_Cannon |WikiCrawler.HttpCrawler.HttpLinksCrawler|
-2018/05/21 23:41:04.747|INFO|Visited: https://en.wikipedia.org/wiki/Main_Page/wiki/Stephanie_Adams |WikiCrawler.HttpCrawler.HttpLinksCrawler|
-2018/05/21 23:41:04.761|INFO|Visited: https://en.wikipedia.org/wiki/Main_Page/wiki/Wikipedia:In_the_news/Candidates |WikiCrawler.HttpCrawler.HttpLinksCrawler|
-2018/05/21 23:41:04.781|INFO|Visited: https://en.wikipedia.org/wiki/Main_Page/wiki/May_21 |WikiCrawler.HttpCrawler.HttpLinksCrawler|
-2018/05/21 23:41:04.797|INFO|Visited: https://en.wikipedia.org/wiki/Main_Page/wiki/Victoria_Day |WikiCrawler.HttpCrawler.HttpLinksCrawler|
-2018/05/21 23:41:04.824|INFO|Visited: https://en.wikipedia.org/wiki/Main_Page/wiki/File:Soeharto.jpg |WikiCrawler.HttpCrawler.HttpLinksCrawler|
-2018/05/21 23:41:04.871|INFO|Visited: https://en.wikipedia.org/wiki/Main_Page/wiki/1403 |WikiCrawler.HttpCrawler.HttpLinksCrawler|
-2018/05/21 23:41:04.898|INFO|Visited: https://en.wikipedia.org/wiki/Main_Page/wiki/Henry_III_of_Castile |WikiCrawler.HttpCrawler.HttpLinksCrawler|
-2018/05/21 23:41:04.935|INFO|Visited: https://en.wikipedia.org/wiki/Main_Page/wiki/Timurid_relations_with_Europe |WikiCrawler.HttpCrawler.HttpLinksCrawler|
-2018/05/21 23:41:04.958|INFO|Visited: https://en.wikipedia.org/wiki/Main_Page/wiki/Timur |WikiCrawler.HttpCrawler.HttpLinksCrawler|
-2018/05/21 23:41:04.969|INFO|Visited: https://en.wikipedia.org/wiki/Main_Page/wiki/Ottoman_Empire |WikiCrawler.HttpCrawler.HttpLinksCrawler|
-2018/05/21 23:41:04.984|INFO|Visited: https://en.wikipedia.org/wiki/Main_Page/wiki/1856 |WikiCrawler.HttpCrawler.HttpLinksCrawler|
-2018/05/21 23:41:05.000|INFO|Visited: https://en.wikipedia.org/wiki/Main_Page/wiki/Sacking_of_Lawrence |WikiCrawler.HttpCrawler.HttpLinksCrawler|
-2018/05/21 23:41:05.015|INFO|Visited: https://en.wikipedia.org/wiki/Main_Page/wiki/Lawrence,_Kansas |WikiCrawler.HttpCrawler.HttpLinksCrawler|
-2018/05/21 23:41:05.034|INFO|Visited: https://en.wikipedia.org/wiki/Main_Page/wiki/1894 |WikiCrawler.HttpCrawler.HttpLinksCrawler|
-2018/05/21 23:41:05.046|INFO|Visited: https://en.wikipedia.org/wiki/Main_Page/wiki/Manchester_Ship_Canal |WikiCrawler.HttpCrawler.HttpLinksCrawler|
-2018/05/21 23:41:05.058|INFO|Visited: https://en.wikipedia.org/wiki/Main_Page/wiki/Manchester |WikiCrawler.HttpCrawler.HttpLinksCrawler|
-2018/05/21 23:41:05.076|INFO|Visited: https://en.wikipedia.org/wiki/Main_Page/wiki/North_West_England |WikiCrawler.HttpCrawler.HttpLinksCrawler|
-2018/05/21 23:41:05.097|INFO|Visited: https://en.wikipedia.org/wiki/Main_Page/wiki/Irish_Sea |WikiCrawler.HttpCrawler.HttpLinksCrawler|
-2018/05/21 23:41:05.127|INFO|Visited: https://en.wikipedia.org/wiki/Main_Page/wiki/1911 |WikiCrawler.HttpCrawler.HttpLinksCrawler|
-2018/05/21 23:41:05.173|INFO|Visited: https://en.wikipedia.org/wiki/Main_Page/wiki/President_of_Mexico |WikiCrawler.HttpCrawler.HttpLinksCrawler|
-2018/05/21 23:41:05.250|INFO|Visited: https://en.wikipedia.org/wiki/Main_Page/wiki/Porfirio_D%C3%ADaz |WikiCrawler.HttpCrawler.HttpLinksCrawler|
-2018/05/21 23:41:05.261|INFO|Visited: https://en.wikipedia.org/wiki/Main_Page/wiki/Francisco_Madero |WikiCrawler.HttpCrawler.HttpLinksCrawler|
-2018/05/21 23:41:05.313|INFO|Visited: https://en.wikipedia.org/wiki/Main_Page/wiki/Treaty_of_Ciudad_Ju%C3%A1rez |WikiCrawler.HttpCrawler.HttpLinksCrawler|
-2018/05/21 23:41:05.345|INFO|Visited: https://en.wikipedia.org/wiki/Main_Page/wiki/Mexican_Revolution |WikiCrawler.HttpCrawler.HttpLinksCrawler|
-2018/05/21 23:41:05.358|INFO|Visited: https://en.wikipedia.org/wiki/Main_Page/wiki/1998 |WikiCrawler.HttpCrawler.HttpLinksCrawler|
-2018/05/21 23:41:05.373|INFO|Visited: https://en.wikipedia.org/wiki/Main_Page/wiki/Suharto |WikiCrawler.HttpCrawler.HttpLinksCrawler|
-2018/05/21 23:41:05.391|INFO|Visited: https://en.wikipedia.org/wiki/Main_Page/wiki/Fall_of_Suharto |WikiCrawler.HttpCrawler.HttpLinksCrawler|
-2018/05/21 23:41:05.408|INFO|Visited: https://en.wikipedia.org/wiki/Main_Page/wiki/Thomas_Howard,_2nd_Duke_of_Norfolk |WikiCrawler.HttpCrawler.HttpLinksCrawler|
-2018/05/21 23:41:05.438|INFO|Visited: https://en.wikipedia.org/wiki/Main_Page/wiki/Tudor_Arghezi |WikiCrawler.HttpCrawler.HttpLinksCrawler|
-2018/05/21 23:41:05.454|INFO|Visited: https://en.wikipedia.org/wiki/Main_Page/wiki/Linda_Laubenstein |WikiCrawler.HttpCrawler.HttpLinksCrawler|
-2018/05/21 23:41:05.469|INFO|Visited: https://en.wikipedia.org/wiki/Main_Page/wiki/May_20 |WikiCrawler.HttpCrawler.HttpLinksCrawler|
-2018/05/21 23:41:05.485|INFO|Visited: https://en.wikipedia.org/wiki/Main_Page/wiki/May_22 |WikiCrawler.HttpCrawler.HttpLinksCrawler|
-2018/05/21 23:41:05.511|INFO|Visited: https://en.wikipedia.org/wiki/Main_Page/wiki/Wikipedia:Selected_anniversaries/May |WikiCrawler.HttpCrawler.HttpLinksCrawler|
-2018/05/21 23:41:05.553|INFO|Visited: https://en.wikipedia.org/wiki/Main_Page/wiki/List_of_historical_anniversaries |WikiCrawler.HttpCrawler.HttpLinksCrawler|
-2018/05/21 23:41:05.587|INFO|Visited: https://en.wikipedia.org/wiki/Main_Page/wiki/File:Guillemots.png |WikiCrawler.HttpCrawler.HttpLinksCrawler|
-2018/05/21 23:41:05.648|INFO|Visited: https://en.wikipedia.org/wiki/Main_Page/wiki/List_of_songs_recorded_by_Guillemots |WikiCrawler.HttpCrawler.HttpLinksCrawler|
-2018/05/21 23:41:05.675|INFO|Visited: https://en.wikipedia.org/wiki/Main_Page/wiki/Indie_rock |WikiCrawler.HttpCrawler.HttpLinksCrawler|
-2018/05/21 23:41:05.684|INFO|Visited: https://en.wikipedia.org/wiki/Main_Page/wiki/Guillemots_(band) |WikiCrawler.HttpCrawler.HttpLinksCrawler|
-2018/05/21 23:41:05.706|INFO|Visited: https://en.wikipedia.org/wiki/Main_Page/wiki/Through_the_Windowpane |WikiCrawler.HttpCrawler.HttpLinksCrawler|
-2018/05/21 23:41:05.735|INFO|Visited: https://en.wikipedia.org/wiki/Main_Page/wiki/Fyfe_Dangerfield |WikiCrawler.HttpCrawler.HttpLinksCrawler|
-2018/05/21 23:41:05.751|INFO|Visited: https://en.wikipedia.org/wiki/Main_Page/wiki/Red_(Guillemots_album) |WikiCrawler.HttpCrawler.HttpLinksCrawler|
-2018/05/21 23:41:05.776|INFO|Visited: https://en.wikipedia.org/wiki/Main_Page/wiki/Pop_music |WikiCrawler.HttpCrawler.HttpLinksCrawler|
-2018/05/21 23:41:05.810|INFO|Visited: https://en.wikipedia.org/wiki/Main_Page/wiki/Walk_the_River |WikiCrawler.HttpCrawler.HttpLinksCrawler|
-2018/05/21 23:41:05.901|INFO|Visited: https://en.wikipedia.org/wiki/Main_Page/wiki/Strings_(music) |WikiCrawler.HttpCrawler.HttpLinksCrawler|
-2018/05/21 23:41:05.937|INFO|Visited: https://en.wikipedia.org/wiki/Main_Page/wiki/Brass_instrument |WikiCrawler.HttpCrawler.HttpLinksCrawler|
-2018/05/21 23:41:05.956|INFO|Visited: https://en.wikipedia.org/wiki/Main_Page/wiki/Set_lists |WikiCrawler.HttpCrawler.HttpLinksCrawler|
-2018/05/21 23:41:05.987|INFO|Visited: https://en.wikipedia.org/wiki/Main_Page/wiki/The_Times |WikiCrawler.HttpCrawler.HttpLinksCrawler|
-2018/05/21 23:41:06.054|INFO|Visited: https://en.wikipedia.org/wiki/Main_Page/wiki/List_of_National_Parks_of_Canada |WikiCrawler.HttpCrawler.HttpLinksCrawler|
-2018/05/21 23:41:06.084|INFO|Visited: https://en.wikipedia.org/wiki/Main_Page/wiki/List_of_the_largest_genera_of_flowering_plants |WikiCrawler.HttpCrawler.HttpLinksCrawler|
-2018/05/21 23:41:06.110|INFO|Visited: https://en.wikipedia.org/wiki/Main_Page/wiki/List_of_international_cricket_five-wicket_hauls_by_Muttiah_Muralitharan |WikiCrawler.HttpCrawler.HttpLinksCrawler|
-2018/05/21 23:41:06.136|INFO|Visited: https://en.wikipedia.org/wiki/Main_Page/wiki/Wikipedia:Today%27s_featured_list/May_2018 |WikiCrawler.HttpCrawler.HttpLinksCrawler|
-2018/05/21 23:41:06.153|INFO|Visited: https://en.wikipedia.org/wiki/Main_Page/wiki/Wikipedia:Featured_lists |WikiCrawler.HttpCrawler.HttpLinksCrawler|
-2018/05/21 23:41:06.170|INFO|Visited: https://en.wikipedia.org/wiki/Main_Page/wiki/File:Stielers_Handatlas_1891_59.jpg |WikiCrawler.HttpCrawler.HttpLinksCrawler|
-2018/05/21 23:41:06.188|INFO|Visited: https://en.wikipedia.org/wiki/Main_Page/wiki/Turan |WikiCrawler.HttpCrawler.HttpLinksCrawler|
-2018/05/21 23:41:06.198|INFO|Visited: https://en.wikipedia.org/wiki/Main_Page/wiki/Qajar_dynasty |WikiCrawler.HttpCrawler.HttpLinksCrawler|
-2018/05/21 23:41:06.250|INFO|Visited: https://en.wikipedia.org/wiki/Main_Page/wiki/Adolf_Stieler |WikiCrawler.HttpCrawler.HttpLinksCrawler|
-2018/05/21 23:41:06.374|INFO|Visited: https://en.wikipedia.org/wiki/Main_Page/wiki/Stielers_Handatlas |WikiCrawler.HttpCrawler.HttpLinksCrawler|
-2018/05/21 23:41:06.401|INFO|Visited: https://en.wikipedia.org/wiki/Main_Page/wiki/Justus_Perthes |WikiCrawler.HttpCrawler.HttpLinksCrawler|
-2018/05/21 23:41:06.431|INFO|Visited: https://en.wikipedia.org/wiki/Main_Page/wiki/Template:POTD/2018-05-20 |WikiCrawler.HttpCrawler.HttpLinksCrawler|
-2018/05/21 23:41:06.450|INFO|Visited: https://en.wikipedia.org/wiki/Main_Page/wiki/Template:POTD/2018-05-19 |WikiCrawler.HttpCrawler.HttpLinksCrawler|
-2018/05/21 23:41:06.466|INFO|Visited: https://en.wikipedia.org/wiki/Main_Page/wiki/Template:POTD/2018-05-18 |WikiCrawler.HttpCrawler.HttpLinksCrawler|
-2018/05/21 23:41:06.484|INFO|Visited: https://en.wikipedia.org/wiki/Main_Page/wiki/Wikipedia:Picture_of_the_day/May_2018 |WikiCrawler.HttpCrawler.HttpLinksCrawler|
-2018/05/21 23:41:06.533|INFO|Visited: https://en.wikipedia.org/wiki/Main_Page/wiki/Wikipedia:Featured_pictures |WikiCrawler.HttpCrawler.HttpLinksCrawler|
-2018/05/21 23:41:06.573|INFO|Visited: https://en.wikipedia.org/wiki/Main_Page/wiki/Wikipedia:Community_portal |WikiCrawler.HttpCrawler.HttpLinksCrawler|
-2018/05/21 23:41:06.612|INFO|Visited: https://en.wikipedia.org/wiki/Main_Page/wiki/Wikipedia:Help_desk |WikiCrawler.HttpCrawler.HttpLinksCrawler|
-2018/05/21 23:41:06.654|INFO|Visited: https://en.wikipedia.org/wiki/Main_Page/wiki/Wikipedia:Local_Embassy |WikiCrawler.HttpCrawler.HttpLinksCrawler|
-2018/05/21 23:41:06.673|INFO|Visited: https://en.wikipedia.org/wiki/Main_Page/wiki/Wikipedia:Reference_desk |WikiCrawler.HttpCrawler.HttpLinksCrawler|
-2018/05/21 23:41:06.690|INFO|Visited: https://en.wikipedia.org/wiki/Main_Page/wiki/Wikipedia:News |WikiCrawler.HttpCrawler.HttpLinksCrawler|
-2018/05/21 23:41:06.741|INFO|Visited: https://en.wikipedia.org/wiki/Main_Page/wiki/Wikipedia:Village_pump |WikiCrawler.HttpCrawler.HttpLinksCrawler|
-2018/05/21 23:41:06.760|INFO|Visited: https://en.wikipedia.org/wiki/Main_Page/wiki/Wikimedia_Foundation |WikiCrawler.HttpCrawler.HttpLinksCrawler|
-2018/05/21 23:41:06.879|INFO|Visited: https://en.wikipedia.org/wiki/Main_Page//commons.wikimedia.org/ |WikiCrawler.HttpCrawler.HttpLinksCrawler|
-2018/05/21 23:41:06.911|INFO|Visited: https://en.wikipedia.org/wiki/Main_Page//mediawiki.org/ |WikiCrawler.HttpCrawler.HttpLinksCrawler|
-2018/05/21 23:41:06.934|INFO|Visited: https://en.wikipedia.org/wiki/Main_Page//meta.wikimedia.org/ |WikiCrawler.HttpCrawler.HttpLinksCrawler|
-2018/05/21 23:41:06.965|INFO|Visited: https://en.wikipedia.org/wiki/Main_Page//en.wikibooks.org/ |WikiCrawler.HttpCrawler.HttpLinksCrawler|
-2018/05/21 23:41:06.986|INFO|Visited: https://en.wikipedia.org/wiki/Main_Page//www.wikidata.org/ |WikiCrawler.HttpCrawler.HttpLinksCrawler|
-2018/05/21 23:41:07.015|INFO|Visited: https://en.wikipedia.org/wiki/Main_Page//en.wikinews.org/ |WikiCrawler.HttpCrawler.HttpLinksCrawler|
-2018/05/21 23:41:07.152|INFO|Visited: https://en.wikipedia.org/wiki/Main_Page//en.wikiquote.org/ |WikiCrawler.HttpCrawler.HttpLinksCrawler|
-2018/05/21 23:41:07.166|INFO|Visited: https://en.wikipedia.org/wiki/Main_Page//en.wikisource.org/ |WikiCrawler.HttpCrawler.HttpLinksCrawler|
-2018/05/21 23:41:07.201|INFO|Visited: https://en.wikipedia.org/wiki/Main_Page//species.wikimedia.org/ |WikiCrawler.HttpCrawler.HttpLinksCrawler|
-2018/05/21 23:41:07.228|INFO|Visited: https://en.wikipedia.org/wiki/Main_Page//en.wikiversity.org/ |WikiCrawler.HttpCrawler.HttpLinksCrawler|
-2018/05/21 23:41:07.246|INFO|Visited: https://en.wikipedia.org/wiki/Main_Page//en.wikivoyage.org/ |WikiCrawler.HttpCrawler.HttpLinksCrawler|
-2018/05/21 23:41:07.262|INFO|Visited: https://en.wikipedia.org/wiki/Main_Page//en.wiktionary.org/ |WikiCrawler.HttpCrawler.HttpLinksCrawler|
-2018/05/21 23:41:07.277|INFO|Visited: https://en.wikipedia.org/w/index.php?title=Main_Page&amp;oldid=840611669 |WikiCrawler.HttpCrawler.HttpLinksCrawler|
-2018/05/21 23:41:07.293|INFO|Visited: https://en.wikipedia.org/wiki/Main_Page/wiki/Special:MyTalk |WikiCrawler.HttpCrawler.HttpLinksCrawler|
-2018/05/21 23:41:07.312|INFO|Visited: https://en.wikipedia.org/wiki/Main_Page/wiki/Special:MyContributions |WikiCrawler.HttpCrawler.HttpLinksCrawler|
-2018/05/21 23:41:07.323|INFO|Visited: https://en.wikipedia.org/wiki/Main_Page/w/index.php?title=Special:CreateAccount&amp;returnto=Main+Page |WikiCrawler.HttpCrawler.HttpLinksCrawler|
-2018/05/21 23:41:07.341|INFO|Visited: https://en.wikipedia.org/wiki/Main_Page/w/index.php?title=Special:UserLogin&amp;returnto=Main+Page |WikiCrawler.HttpCrawler.HttpLinksCrawler|
-2018/05/21 23:41:07.356|INFO|Visited: https://en.wikipedia.org/wiki/Main_Page/wiki/Main_Page |WikiCrawler.HttpCrawler.HttpLinksCrawler|
-2018/05/21 23:41:07.389|INFO|Visited: https://en.wikipedia.org/wiki/Main_Page/wiki/Talk:Main_Page |WikiCrawler.HttpCrawler.HttpLinksCrawler|
-2018/05/21 23:41:07.437|INFO|Visited: https://en.wikipedia.org/wiki/Main_Page/w/index.php?title=Main_Page&amp;action=edit |WikiCrawler.HttpCrawler.HttpLinksCrawler|
-2018/05/21 23:41:07.448|INFO|Visited: https://en.wikipedia.org/wiki/Main_Page/w/index.php?title=Main_Page&amp;action=history |WikiCrawler.HttpCrawler.HttpLinksCrawler|
-2018/05/21 23:41:07.485|INFO|Visited: https://en.wikipedia.org/wiki/Main_Page/wiki/Portal:Contents |WikiCrawler.HttpCrawler.HttpLinksCrawler|
-2018/05/21 23:41:07.533|INFO|Visited: https://en.wikipedia.org/wiki/Main_Page/wiki/Portal:Featured_content |WikiCrawler.HttpCrawler.HttpLinksCrawler|
-2018/05/21 23:41:07.542|INFO|Visited: https://en.wikipedia.org/wiki/Main_Page/wiki/Special:Random |WikiCrawler.HttpCrawler.HttpLinksCrawler|
-2018/05/21 23:41:07.558|INFO|Visited: https://en.wikipedia.org/wiki/Main_Page//shop.wikimedia.org |WikiCrawler.HttpCrawler.HttpLinksCrawler|
-2018/05/21 23:41:07.573|INFO|Visited: https://en.wikipedia.org/wiki/Main_Page/wiki/Help:Contents |WikiCrawler.HttpCrawler.HttpLinksCrawler|
-2018/05/21 23:41:07.593|INFO|Visited: https://en.wikipedia.org/wiki/Main_Page/wiki/Wikipedia:About |WikiCrawler.HttpCrawler.HttpLinksCrawler|
-2018/05/21 23:41:07.627|INFO|Visited: https://en.wikipedia.org/wiki/Main_Page/wiki/Special:RecentChanges |WikiCrawler.HttpCrawler.HttpLinksCrawler|
-2018/05/21 23:41:07.658|INFO|Visited: https://en.wikipedia.org/wiki/Main_Page//en.wikipedia.org/wiki/Wikipedia:Contact_us |WikiCrawler.HttpCrawler.HttpLinksCrawler|
-2018/05/21 23:41:07.669|INFO|Visited: https://en.wikipedia.org/wiki/Main_Page/wiki/Special:WhatLinksHere/Main_Page |WikiCrawler.HttpCrawler.HttpLinksCrawler|
-2018/05/21 23:41:07.711|INFO|Visited: https://en.wikipedia.org/wiki/Main_Page/wiki/Special:RecentChangesLinked/Main_Page |WikiCrawler.HttpCrawler.HttpLinksCrawler|
-2018/05/21 23:41:07.747|INFO|Visited: https://en.wikipedia.org/wiki/Main_Page/wiki/Wikipedia:File_Upload_Wizard |WikiCrawler.HttpCrawler.HttpLinksCrawler|
-2018/05/21 23:41:07.789|INFO|Visited: https://en.wikipedia.org/wiki/Main_Page/wiki/Special:SpecialPages |WikiCrawler.HttpCrawler.HttpLinksCrawler|
-2018/05/21 23:41:07.810|INFO|Visited: https://en.wikipedia.org/wiki/Main_Page/w/index.php?title=Main_Page&amp;oldid=840611669 |WikiCrawler.HttpCrawler.HttpLinksCrawler|
-2018/05/21 23:41:07.835|INFO|Visited: https://en.wikipedia.org/wiki/Main_Page/w/index.php?title=Main_Page&amp;action=info |WikiCrawler.HttpCrawler.HttpLinksCrawler|
-2018/05/21 23:41:07.859|INFO|Visited: https://en.wikipedia.org/wiki/Main_Page/w/index.php?title=Special:CiteThisPage&amp;page=Main_Page&amp;id=840611669 |WikiCrawler.HttpCrawler.HttpLinksCrawler|
-2018/05/21 23:41:07.903|INFO|Visited: https://en.wikipedia.org/wiki/Main_Page/w/index.php?title=Special:Book&amp;bookcmd=book_creator&amp;referer=Main+Page |WikiCrawler.HttpCrawler.HttpLinksCrawler|
-2018/05/21 23:41:07.932|INFO|Visited: https://en.wikipedia.org/wiki/Main_Page/w/index.php?title=Special:ElectronPdf&amp;page=Main+Page&amp;action=show-download-screen |WikiCrawler.HttpCrawler.HttpLinksCrawler|
-2018/05/21 23:41:07.953|INFO|Visited: https://en.wikipedia.org/wiki/Main_Page/w/index.php?title=Main_Page&amp;printable=yes |WikiCrawler.HttpCrawler.HttpLinksCrawler|
-2018/05/21 23:41:07.979|INFO|Visited: https://en.wikipedia.org/wiki/Main_Page//en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License |WikiCrawler.HttpCrawler.HttpLinksCrawler|
-2018/05/21 23:41:07.996|INFO|Visited: https://en.wikipedia.org/wiki/Main_Page//creativecommons.org/licenses/by-sa/3.0/ |WikiCrawler.HttpCrawler.HttpLinksCrawler|
-2018/05/21 23:41:08.011|INFO|Visited: https://en.wikipedia.org/wiki/Main_Page//wikimediafoundation.org/wiki/Terms_of_Use |WikiCrawler.HttpCrawler.HttpLinksCrawler|
-2018/05/21 23:41:08.031|INFO|Visited: https://en.wikipedia.org/wiki/Main_Page//wikimediafoundation.org/wiki/Privacy_policy |WikiCrawler.HttpCrawler.HttpLinksCrawler|
-2018/05/21 23:41:08.059|INFO|Visited: https://en.wikipedia.org/wiki/Main_Page//www.wikimediafoundation.org/ |WikiCrawler.HttpCrawler.HttpLinksCrawler|
-2018/05/21 23:41:08.081|INFO|Visited: https://en.wikipedia.org/wiki/Main_Page/wiki/Wikipedia:General_disclaimer |WikiCrawler.HttpCrawler.HttpLinksCrawler|
-2018/05/21 23:41:08.133|INFO|Visited: https://en.wikipedia.org/wiki/Main_Page//en.m.wikipedia.org/w/index.php?title=Main_Page&amp;mobileaction=toggle_view_mobile |WikiCrawler.HttpCrawler.HttpLinksCrawler|
-2018/05/21 23:41:08.163|INFO|Visited: https://en.wikipedia.org/wiki/Main_Page//www.mediawiki.org/ |WikiCrawler.HttpCrawler.HttpLinksCrawler|
-2018/05/21 23:41:08.682|WARN|Request not successed: Response status code does not indicate success: 404 (Not Found). |WikiCrawler.HttpCrawler.HttpLinksCrawler|
-2018/05/21 23:41:09.180|WARN|Request not successed: Response status code does not indicate success: 404 (Not Found). |WikiCrawler.HttpCrawler.HttpLinksCrawler|
-2018/05/21 23:41:09.724|WARN|Request not successed: Response status code does not indicate success: 404 (Not Found). |WikiCrawler.HttpCrawler.HttpLinksCrawler|
-2018/05/21 23:41:10.205|WARN|Request not successed: Response status code does not indicate success: 404 (Not Found). |WikiCrawler.HttpCrawler.HttpLinksCrawler|
-2018/05/21 23:41:10.728|WARN|Request not successed: Response status code does not indicate success: 404 (Not Found). |WikiCrawler.HttpCrawler.HttpLinksCrawler|
-2018/05/21 23:41:11.216|WARN|Request not successed: Response status code does not indicate success: 404 (Not Found). |WikiCrawler.HttpCrawler.HttpLinksCrawler|
-2018/05/21 23:41:11.796|WARN|Request not successed: Response status code does not indicate success: 404 (Not Found). |WikiCrawler.HttpCrawler.HttpLinksCrawler|
-2018/05/21 23:41:12.284|WARN|Request not successed: Response status code does not indicate success: 404 (Not Found). |WikiCrawler.HttpCrawler.HttpLinksCrawler|
-2018/05/21 23:41:12.786|WARN|Request not successed: Response status code does not indicate success: 404 (Not Found). |WikiCrawler.HttpCrawler.HttpLinksCrawler|
-2018/05/21 23:41:13.289|WARN|Request not successed: Response status code does not indicate success: 404 (Not Found). |WikiCrawler.HttpCrawler.HttpLinksCrawler|
-2018/05/21 23:41:13.779|WARN|Request not successed: Response status code does not indicate success: 404 (Not Found). |WikiCrawler.HttpCrawler.HttpLinksCrawler|
-2018/05/21 23:41:14.273|WARN|Request not successed: Response status code does not indicate success: 404 (Not Found). |WikiCrawler.HttpCrawler.HttpLinksCrawler|
-2018/05/21 23:41:14.748|WARN|Request not successed: Response status code does not indicate success: 404 (Not Found). |WikiCrawler.HttpCrawler.HttpLinksCrawler|
-2018/05/21 23:41:15.217|WARN|Request not successed: Response status code does not indicate success: 404 (Not Found). |WikiCrawler.HttpCrawler.HttpLinksCrawler|
-2018/05/21 23:41:15.767|WARN|Request not successed: Response status code does not indicate success: 404 (Not Found). |WikiCrawler.HttpCrawler.HttpLinksCrawler|
-2018/05/21 23:41:16.281|WARN|Request not successed: Response status code does not indicate success: 404 (Not Found). |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:48:38.921|INFO|Visited: https://en.wikipedia.org/wiki/Main_Page/wiki/Wikipedia |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:48:39.138|INFO|Visited: https://en.wikipedia.org/wiki/Main_Page/wiki/Free_content |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:48:39.143|INFO|Visited: https://en.wikipedia.org/wiki/Main_Page/wiki/Encyclopedia |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:48:39.159|INFO|Visited: https://en.wikipedia.org/wiki/Main_Page/wiki/Wikipedia:Introduction |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:48:39.171|INFO|Visited: https://en.wikipedia.org/wiki/Main_Page/wiki/Special:Statistics |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:48:39.223|INFO|Visited: https://en.wikipedia.org/wiki/Main_Page/wiki/English_language |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:48:39.235|INFO|Visited: https://en.wikipedia.org/wiki/Main_Page/wiki/Portal:Arts |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:48:39.252|INFO|Visited: https://en.wikipedia.org/wiki/Main_Page/wiki/Portal:Biography |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:48:39.329|INFO|Visited: https://en.wikipedia.org/wiki/Main_Page/wiki/Portal:Geography |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:48:39.342|INFO|Visited: https://en.wikipedia.org/wiki/Main_Page/wiki/Portal:History |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:48:39.365|INFO|Visited: https://en.wikipedia.org/wiki/Main_Page/wiki/Portal:Mathematics |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:48:39.925|INFO|Visited: https://en.wikipedia.org/wiki/Main_Page/wiki/Portal:Science |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:48:39.969|INFO|Visited: https://en.wikipedia.org/wiki/Main_Page/wiki/Portal:Society |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:48:39.986|INFO|Visited: https://en.wikipedia.org/wiki/Main_Page/wiki/Portal:Technology |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:48:40.007|INFO|Visited: https://en.wikipedia.org/wiki/Main_Page/wiki/Portal:Contents/Portals |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:48:40.017|INFO|Visited: https://en.wikipedia.org/wiki/Main_Page/wiki/File:M35G12Forest_(cropped).jpg |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:48:40.050|INFO|Visited: https://en.wikipedia.org/wiki/Main_Page/wiki/M-35_(Michigan_highway) |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:48:40.115|INFO|Visited: https://en.wikipedia.org/wiki/Main_Page/wiki/Michigan_State_Trunkline_Highway_System |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:48:40.131|INFO|Visited: https://en.wikipedia.org/wiki/Main_Page/wiki/Upper_Peninsula_of_Michigan |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:48:40.189|INFO|Visited: https://en.wikipedia.org/wiki/Main_Page/wiki/Michigan |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:48:40.252|INFO|Visited: https://en.wikipedia.org/wiki/Main_Page/wiki/Menominee,_Michigan |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:48:40.271|INFO|Visited: https://en.wikipedia.org/wiki/Main_Page/wiki/Escanaba,_Michigan |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:48:40.287|INFO|Visited: https://en.wikipedia.org/wiki/Main_Page/wiki/Negaunee,_Michigan |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:48:40.299|INFO|Visited: https://en.wikipedia.org/wiki/Main_Page/wiki/Lake_Michigan_Circle_Tour |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:48:40.326|INFO|Visited: https://en.wikipedia.org/wiki/Main_Page/wiki/Pure_Michigan_Byways |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:48:40.345|INFO|Visited: https://en.wikipedia.org/wiki/Main_Page/wiki/Green_Bay_(Lake_Michigan) |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:48:40.379|INFO|Visited: https://en.wikipedia.org/wiki/Main_Page/wiki/Lake_Michigan |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:48:40.417|INFO|Visited: https://en.wikipedia.org/wiki/Main_Page/wiki/Marquette_County,_Michigan |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:48:40.426|INFO|Visited: https://en.wikipedia.org/wiki/Main_Page/wiki/Big_Bay,_Michigan |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:48:40.459|INFO|Visited: https://en.wikipedia.org/wiki/Main_Page/wiki/L%27Anse,_Michigan |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:48:40.541|INFO|Visited: https://en.wikipedia.org/wiki/Main_Page/wiki/Ontonagon,_Michigan |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:48:40.682|INFO|Visited: https://en.wikipedia.org/wiki/Main_Page/wiki/Huron_Mountains |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:48:40.738|INFO|Visited: https://en.wikipedia.org/wiki/Main_Page/wiki/Baraga_County,_Michigan |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:48:40.787|INFO|Visited: https://en.wikipedia.org/wiki/Main_Page/wiki/Henry_Ford |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:48:40.812|INFO|Visited: https://en.wikipedia.org/wiki/Main_Page/wiki/Huron_Mountain_Club |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:48:40.834|INFO|Visited: https://en.wikipedia.org/wiki/Main_Page/wiki/Princess_Helena_of_the_United_Kingdom |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:48:40.859|INFO|Visited: https://en.wikipedia.org/wiki/Main_Page/wiki/Wonder_Stories |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:48:40.879|INFO|Visited: https://en.wikipedia.org/wiki/Main_Page/wiki/1988_Giro_d%27Italia |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:48:40.900|INFO|Visited: https://en.wikipedia.org/wiki/Main_Page/wiki/Wikipedia:Today%27s_featured_article/May_2018 |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:48:40.922|INFO|Visited: https://en.wikipedia.org/wiki/Main_Page/wiki/Wikipedia:Featured_articles |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:48:40.936|INFO|Visited: https://en.wikipedia.org/wiki/Main_Page/wiki/File:Foss_Couchant.jpg |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:48:40.972|INFO|Visited: https://en.wikipedia.org/wiki/Main_Page/wiki/Edward_Lear |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:48:41.002|INFO|Visited: https://en.wikipedia.org/wiki/Main_Page/wiki/Foss_(cat) |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:48:41.015|INFO|Visited: https://en.wikipedia.org/wiki/Main_Page/wiki/1902_Ibrox_disaster |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:48:41.053|INFO|Visited: https://en.wikipedia.org/wiki/Main_Page/wiki/Bobby_Templeton_(footballer,_born_1880) |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:48:41.065|INFO|Visited: https://en.wikipedia.org/wiki/Main_Page/wiki/Dribbling |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:48:41.097|INFO|Visited: https://en.wikipedia.org/wiki/Main_Page/wiki/Constantine_VIII |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:48:41.117|INFO|Visited: https://en.wikipedia.org/wiki/Main_Page/wiki/List_of_Byzantine_emperors |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:48:41.126|INFO|Visited: https://en.wikipedia.org/wiki/Main_Page/wiki/Byzantine_Empire |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:48:41.157|INFO|Visited: https://en.wikipedia.org/wiki/Main_Page/wiki/Ortiz_Shift |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:48:41.182|INFO|Visited: https://en.wikipedia.org/wiki/Main_Page/wiki/David_Ortiz |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:48:41.215|INFO|Visited: https://en.wikipedia.org/wiki/Main_Page/wiki/Teodora_Krajewska |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:48:41.260|INFO|Visited: https://en.wikipedia.org/wiki/Main_Page/wiki/First_female_physicians |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:48:41.286|INFO|Visited: https://en.wikipedia.org/wiki/Main_Page/wiki/Austro-Hungarian_rule_in_Bosnia_and_Herzegovina |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:48:41.298|INFO|Visited: https://en.wikipedia.org/wiki/Main_Page/wiki/Auburn_station_(Sound_Transit) |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:48:41.342|INFO|Visited: https://en.wikipedia.org/wiki/Main_Page/wiki/Farmers%27_market |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:48:41.368|INFO|Visited: https://en.wikipedia.org/wiki/Main_Page/wiki/Ozobranchus_branchiatus |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:48:41.389|INFO|Visited: https://en.wikipedia.org/wiki/Main_Page/wiki/Green_sea_turtle |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:48:41.408|INFO|Visited: https://en.wikipedia.org/wiki/Main_Page/wiki/Fatimid_Caliphate |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:48:41.427|INFO|Visited: https://en.wikipedia.org/wiki/Main_Page/wiki/Kahk |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:48:41.438|INFO|Visited: https://en.wikipedia.org/wiki/Main_Page/wiki/Wikipedia:Recent_additions |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:48:41.473|INFO|Visited: https://en.wikipedia.org/wiki/Main_Page/wiki/Wikipedia:Your_first_article |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:48:41.519|INFO|Visited: https://en.wikipedia.org/wiki/Main_Page/wiki/Template_talk:Did_you_know |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:48:41.567|INFO|Visited: https://en.wikipedia.org/wiki/Main_Page/wiki/File:Nicol%C3%A1s_Maduro_in_meeting_with_Iranian_President_Hassan_Rouhani_in_Saadabad_Palace.jpg |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:48:41.641|INFO|Visited: https://en.wikipedia.org/wiki/Main_Page/wiki/General_Data_Protection_Regulation |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:48:41.688|INFO|Visited: https://en.wikipedia.org/wiki/Main_Page/wiki/Nicol%C3%A1s_Maduro |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:48:41.735|INFO|Visited: https://en.wikipedia.org/wiki/Main_Page/wiki/Venezuelan_presidential_election,_2018 |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:48:41.752|INFO|Visited: https://en.wikipedia.org/wiki/Main_Page/wiki/President_of_Venezuela |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:48:41.780|INFO|Visited: https://en.wikipedia.org/wiki/Main_Page/wiki/Shoplifters_(film) |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:48:41.799|INFO|Visited: https://en.wikipedia.org/wiki/Main_Page/wiki/Palme_d%27Or |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:48:41.818|INFO|Visited: https://en.wikipedia.org/wiki/Main_Page/wiki/2018_Cannes_Film_Festival |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:48:41.829|INFO|Visited: https://en.wikipedia.org/wiki/Main_Page/wiki/Prince_Harry,_Duke_of_Sussex |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:48:41.848|INFO|Visited: https://en.wikipedia.org/wiki/Main_Page/wiki/Wedding_of_Prince_Harry_and_Meghan_Markle |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:48:41.877|INFO|Visited: https://en.wikipedia.org/wiki/Main_Page/wiki/Meghan,_Duchess_of_Sussex |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:48:41.911|INFO|Visited: https://en.wikipedia.org/wiki/Main_Page/wiki/Portal:Current_events |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:48:41.945|INFO|Visited: https://en.wikipedia.org/wiki/Main_Page/wiki/2018_Democratic_Republic_of_the_Congo_Ebola_virus_outbreak |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:48:41.956|INFO|Visited: https://en.wikipedia.org/wiki/Main_Page/wiki/Deaths_in_2018 |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:48:41.989|INFO|Visited: https://en.wikipedia.org/wiki/Main_Page/wiki/TotalBiscuit |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:48:42.024|INFO|Visited: https://en.wikipedia.org/wiki/Main_Page/wiki/Luis_Posada_Carriles |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:48:42.050|INFO|Visited: https://en.wikipedia.org/wiki/Main_Page/wiki/Dovey_Johnson_Roundtree |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:48:42.065|INFO|Visited: https://en.wikipedia.org/wiki/Main_Page/wiki/Dieter_Schnebel |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:48:42.097|INFO|Visited: https://en.wikipedia.org/wiki/Main_Page/wiki/Wikipedia:In_the_news/Candidates |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:48:42.115|INFO|Visited: https://en.wikipedia.org/wiki/Main_Page/wiki/May_26 |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:48:42.124|INFO|Visited: https://en.wikipedia.org/wiki/Main_Page/wiki/Independence_Day_(Georgia) |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:48:42.154|INFO|Visited: https://en.wikipedia.org/wiki/Main_Page/wiki/Georgia_(country) |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:48:42.171|INFO|Visited: https://en.wikipedia.org/wiki/Main_Page/wiki/File:Vauxhall_Bridge_2009.jpg |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:48:42.189|INFO|Visited: https://en.wikipedia.org/wiki/Main_Page/wiki/946 |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:48:42.209|INFO|Visited: https://en.wikipedia.org/wiki/Main_Page/wiki/Edmund_I |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:48:42.218|INFO|Visited: https://en.wikipedia.org/wiki/Main_Page/wiki/Augustine_of_Canterbury |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:48:42.250|INFO|Visited: https://en.wikipedia.org/wiki/Main_Page/wiki/Mass_(liturgy) |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:48:42.293|INFO|Visited: https://en.wikipedia.org/wiki/Main_Page/wiki/1637 |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:48:42.318|INFO|Visited: https://en.wikipedia.org/wiki/Main_Page/wiki/Pequot_War |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:48:42.373|INFO|Visited: https://en.wikipedia.org/wiki/Main_Page/wiki/Puritan |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:48:42.408|INFO|Visited: https://en.wikipedia.org/wiki/Main_Page/wiki/Mohegan |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:48:42.438|INFO|Visited: https://en.wikipedia.org/wiki/Main_Page/wiki/Mystic_massacre |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:48:42.460|INFO|Visited: https://en.wikipedia.org/wiki/Main_Page/wiki/Pequot_Fort |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:48:42.483|INFO|Visited: https://en.wikipedia.org/wiki/Main_Page/wiki/Connecticut_Colony |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:48:42.507|INFO|Visited: https://en.wikipedia.org/wiki/Main_Page/wiki/1906 |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:48:42.532|INFO|Visited: https://en.wikipedia.org/wiki/Main_Page/wiki/Vauxhall_Bridge |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:48:42.554|INFO|Visited: https://en.wikipedia.org/wiki/Main_Page/wiki/River_Thames |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:48:42.579|INFO|Visited: https://en.wikipedia.org/wiki/Main_Page/wiki/Vauxhall |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:48:42.622|INFO|Visited: https://en.wikipedia.org/wiki/Main_Page/wiki/Westminster |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:48:42.651|INFO|Visited: https://en.wikipedia.org/wiki/Main_Page/wiki/1938 |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:48:42.676|INFO|Visited: https://en.wikipedia.org/wiki/Main_Page/wiki/House_Un-American_Activities_Committee |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:48:42.687|INFO|Visited: https://en.wikipedia.org/wiki/Main_Page/wiki/American_Left#Marxist |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:48:42.719|INFO|Visited: https://en.wikipedia.org/wiki/Main_Page/wiki/Fascism_in_North_America#United_States |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:48:42.738|INFO|Visited: https://en.wikipedia.org/wiki/Main_Page/wiki/1991 |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:48:42.756|INFO|Visited: https://en.wikipedia.org/wiki/Main_Page/wiki/Lauda_Air_Flight_004 |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:48:42.765|INFO|Visited: https://en.wikipedia.org/wiki/Main_Page/wiki/Thrust_reversal |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:48:42.782|INFO|Visited: https://en.wikipedia.org/wiki/Main_Page/wiki/Bede |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:48:42.799|INFO|Visited: https://en.wikipedia.org/wiki/Main_Page/wiki/John_Churchill,_1st_Duke_of_Marlborough |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:48:42.827|INFO|Visited: https://en.wikipedia.org/wiki/Main_Page/wiki/Imi_Lichtenfeld |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:48:42.849|INFO|Visited: https://en.wikipedia.org/wiki/Main_Page/wiki/May_25 |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:48:42.860|INFO|Visited: https://en.wikipedia.org/wiki/Main_Page/wiki/May_27 |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:48:42.889|INFO|Visited: https://en.wikipedia.org/wiki/Main_Page/wiki/Wikipedia:Selected_anniversaries/May |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:48:42.909|INFO|Visited: https://en.wikipedia.org/wiki/Main_Page/wiki/List_of_historical_anniversaries |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:48:42.924|INFO|Visited: https://en.wikipedia.org/wiki/Main_Page/wiki/File:Anna_Ancher_-_Harvesters_-_Google_Art_Project.jpg |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:48:42.957|INFO|Visited: https://en.wikipedia.org/wiki/Main_Page/wiki/Harvesters_(Ancher) |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:48:42.970|INFO|Visited: https://en.wikipedia.org/wiki/Main_Page/wiki/Anna_Ancher |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:48:43.002|INFO|Visited: https://en.wikipedia.org/wiki/Main_Page/wiki/Skagen_Painters |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:48:43.016|INFO|Visited: https://en.wikipedia.org/wiki/Main_Page/wiki/Skagen |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:48:43.049|INFO|Visited: https://en.wikipedia.org/wiki/Main_Page/wiki/Skagens_Museum |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:48:43.082|INFO|Visited: https://en.wikipedia.org/wiki/Main_Page/wiki/Template:POTD/2018-05-25 |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:48:43.116|INFO|Visited: https://en.wikipedia.org/wiki/Main_Page/wiki/Template:POTD/2018-05-24 |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:48:43.146|INFO|Visited: https://en.wikipedia.org/wiki/Main_Page/wiki/Template:POTD/2018-05-23 |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:48:43.156|INFO|Visited: https://en.wikipedia.org/wiki/Main_Page/wiki/Wikipedia:Picture_of_the_day/May_2018 |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:48:43.207|INFO|Visited: https://en.wikipedia.org/wiki/Main_Page/wiki/Wikipedia:Featured_pictures |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:48:43.249|INFO|Visited: https://en.wikipedia.org/wiki/Main_Page/wiki/Wikipedia:Community_portal |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:48:43.308|INFO|Visited: https://en.wikipedia.org/wiki/Main_Page/wiki/Wikipedia:Help_desk |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:48:43.372|INFO|Visited: https://en.wikipedia.org/wiki/Main_Page/wiki/Wikipedia:Local_Embassy |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:48:43.414|INFO|Visited: https://en.wikipedia.org/wiki/Main_Page/wiki/Wikipedia:Reference_desk |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:48:43.437|INFO|Visited: https://en.wikipedia.org/wiki/Main_Page/wiki/Wikipedia:News |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:48:43.461|INFO|Visited: https://en.wikipedia.org/wiki/Main_Page/wiki/Wikipedia:Village_pump |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:48:43.485|INFO|Visited: https://en.wikipedia.org/wiki/Main_Page/wiki/Wikimedia_Foundation |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:48:43.501|INFO|Visited: https://en.wikipedia.org/wiki/Main_Page//commons.wikimedia.org/ |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:48:43.519|INFO|Visited: https://en.wikipedia.org/wiki/Main_Page//mediawiki.org/ |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:48:43.537|INFO|Visited: https://en.wikipedia.org/wiki/Main_Page//meta.wikimedia.org/ |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:48:43.546|INFO|Visited: https://en.wikipedia.org/wiki/Main_Page//en.wikibooks.org/ |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:48:43.564|INFO|Visited: https://en.wikipedia.org/wiki/Main_Page//www.wikidata.org/ |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:48:43.595|INFO|Visited: https://en.wikipedia.org/wiki/Main_Page//en.wikinews.org/ |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:48:43.619|INFO|Visited: https://en.wikipedia.org/wiki/Main_Page//en.wikiquote.org/ |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:48:43.629|INFO|Visited: https://en.wikipedia.org/wiki/Main_Page//en.wikisource.org/ |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:48:43.657|INFO|Visited: https://en.wikipedia.org/wiki/Main_Page//species.wikimedia.org/ |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:48:43.680|INFO|Visited: https://en.wikipedia.org/wiki/Main_Page//en.wikiversity.org/ |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:48:43.689|INFO|Visited: https://en.wikipedia.org/wiki/Main_Page//en.wikivoyage.org/ |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:48:43.725|INFO|Visited: https://en.wikipedia.org/wiki/Main_Page//en.wiktionary.org/ |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:48:43.737|INFO|Visited: https://en.wikipedia.org/w/index.php?title=Main_Page&amp;oldid=840611669 |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:48:43.771|INFO|Visited: https://en.wikipedia.org/wiki/Main_Page/wiki/Special:MyTalk |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:48:43.784|INFO|Visited: https://en.wikipedia.org/wiki/Main_Page/wiki/Special:MyContributions |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:48:43.819|INFO|Visited: https://en.wikipedia.org/wiki/Main_Page/w/index.php?title=Special:CreateAccount&amp;returnto=Main+Page |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:48:43.844|INFO|Visited: https://en.wikipedia.org/wiki/Main_Page/w/index.php?title=Special:UserLogin&amp;returnto=Main+Page |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:48:43.865|INFO|Visited: https://en.wikipedia.org/wiki/Main_Page/wiki/Main_Page |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:48:43.874|INFO|Visited: https://en.wikipedia.org/wiki/Main_Page/wiki/Talk:Main_Page |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:48:43.894|INFO|Visited: https://en.wikipedia.org/wiki/Main_Page/w/index.php?title=Main_Page&amp;action=edit |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:48:43.923|INFO|Visited: https://en.wikipedia.org/wiki/Main_Page/w/index.php?title=Main_Page&amp;action=history |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:48:43.940|INFO|Visited: https://en.wikipedia.org/wiki/Main_Page/wiki/Portal:Contents |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:48:43.957|INFO|Visited: https://en.wikipedia.org/wiki/Main_Page/wiki/Portal:Featured_content |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:48:43.975|INFO|Visited: https://en.wikipedia.org/wiki/Main_Page/wiki/Special:Random |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:48:43.985|INFO|Visited: https://en.wikipedia.org/wiki/Main_Page//shop.wikimedia.org |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:48:44.003|INFO|Visited: https://en.wikipedia.org/wiki/Main_Page/wiki/Help:Contents |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:48:44.035|INFO|Visited: https://en.wikipedia.org/wiki/Main_Page/wiki/Wikipedia:About |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:48:44.051|INFO|Visited: https://en.wikipedia.org/wiki/Main_Page/wiki/Special:RecentChanges |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:48:44.078|INFO|Visited: https://en.wikipedia.org/wiki/Main_Page//en.wikipedia.org/wiki/Wikipedia:Contact_us |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:48:44.095|INFO|Visited: https://en.wikipedia.org/wiki/Main_Page/wiki/Special:WhatLinksHere/Main_Page |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:48:44.110|INFO|Visited: https://en.wikipedia.org/wiki/Main_Page/wiki/Special:RecentChangesLinked/Main_Page |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:48:44.132|INFO|Visited: https://en.wikipedia.org/wiki/Main_Page/wiki/Wikipedia:File_Upload_Wizard |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:48:44.142|INFO|Visited: https://en.wikipedia.org/wiki/Main_Page/wiki/Special:SpecialPages |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:48:44.159|INFO|Visited: https://en.wikipedia.org/wiki/Main_Page/w/index.php?title=Main_Page&amp;oldid=840611669 |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:48:44.189|INFO|Visited: https://en.wikipedia.org/wiki/Main_Page/w/index.php?title=Main_Page&amp;action=info |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:48:44.210|INFO|Visited: https://en.wikipedia.org/wiki/Main_Page/w/index.php?title=Special:CiteThisPage&amp;page=Main_Page&amp;id=840611669 |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:48:44.218|INFO|Visited: https://en.wikipedia.org/wiki/Main_Page/w/index.php?title=Special:Book&amp;bookcmd=book_creator&amp;referer=Main+Page |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:48:44.236|INFO|Visited: https://en.wikipedia.org/wiki/Main_Page/w/index.php?title=Special:ElectronPdf&amp;page=Main+Page&amp;action=show-download-screen |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:48:44.265|INFO|Visited: https://en.wikipedia.org/wiki/Main_Page/w/index.php?title=Main_Page&amp;printable=yes |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:48:44.290|INFO|Visited: https://en.wikipedia.org/wiki/Main_Page//en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:48:44.317|INFO|Visited: https://en.wikipedia.org/wiki/Main_Page//creativecommons.org/licenses/by-sa/3.0/ |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:48:44.350|INFO|Visited: https://en.wikipedia.org/wiki/Main_Page//wikimediafoundation.org/wiki/Terms_of_Use |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:48:44.378|INFO|Visited: https://en.wikipedia.org/wiki/Main_Page//wikimediafoundation.org/wiki/Privacy_policy |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:48:44.389|INFO|Visited: https://en.wikipedia.org/wiki/Main_Page//www.wikimediafoundation.org/ |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:48:44.421|INFO|Visited: https://en.wikipedia.org/wiki/Main_Page/wiki/Wikipedia:General_disclaimer |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:48:44.453|INFO|Visited: https://en.wikipedia.org/wiki/Main_Page//en.m.wikipedia.org/w/index.php?title=Main_Page&amp;mobileaction=toggle_view_mobile |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:48:44.479|INFO|Visited: https://en.wikipedia.org/wiki/Main_Page//www.mediawiki.org/ |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:48:44.583|WARN|Request not successed: Response status code does not indicate success: 404 (Not Found). |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:48:44.778|WARN|Request not successed: Response status code does not indicate success: 404 (Not Found). |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:48:44.968|WARN|Request not successed: Response status code does not indicate success: 404 (Not Found). |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:48:45.151|WARN|Request not successed: Response status code does not indicate success: 404 (Not Found). |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:48:45.329|WARN|Request not successed: Response status code does not indicate success: 404 (Not Found). |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:48:45.509|WARN|Request not successed: Response status code does not indicate success: 404 (Not Found). |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:48:45.695|WARN|Request not successed: Response status code does not indicate success: 404 (Not Found). |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:48:45.877|WARN|Request not successed: Response status code does not indicate success: 404 (Not Found). |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:48:46.070|WARN|Request not successed: Response status code does not indicate success: 404 (Not Found). |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:48:46.253|WARN|Request not successed: Response status code does not indicate success: 404 (Not Found). |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:48:46.439|WARN|Request not successed: Response status code does not indicate success: 404 (Not Found). |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:48:46.661|WARN|Request not successed: Response status code does not indicate success: 404 (Not Found). |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:48:46.845|WARN|Request not successed: Response status code does not indicate success: 404 (Not Found). |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:48:47.026|WARN|Request not successed: Response status code does not indicate success: 404 (Not Found). |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:48:47.211|WARN|Request not successed: Response status code does not indicate success: 404 (Not Found). |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:48:47.391|WARN|Request not successed: Response status code does not indicate success: 404 (Not Found). |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:48:47.578|WARN|Request not successed: Response status code does not indicate success: 404 (Not Found). |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:48:47.771|WARN|Request not successed: Response status code does not indicate success: 404 (Not Found). |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:48:47.956|WARN|Request not successed: Response status code does not indicate success: 404 (Not Found). |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:48:48.137|WARN|Request not successed: Response status code does not indicate success: 404 (Not Found). |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:48:48.317|WARN|Request not successed: Response status code does not indicate success: 404 (Not Found). |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:48:48.499|WARN|Request not successed: Response status code does not indicate success: 404 (Not Found). |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:48:48.695|WARN|Request not successed: Response status code does not indicate success: 404 (Not Found). |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:48:48.873|WARN|Request not successed: Response status code does not indicate success: 404 (Not Found). |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:48:49.062|WARN|Request not successed: Response status code does not indicate success: 404 (Not Found). |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:48:49.247|WARN|Request not successed: Response status code does not indicate success: 404 (Not Found). |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:48:49.430|WARN|Request not successed: Response status code does not indicate success: 404 (Not Found). |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:48:49.616|WARN|Request not successed: Response status code does not indicate success: 404 (Not Found). |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:48:49.799|WARN|Request not successed: Response status code does not indicate success: 404 (Not Found). |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:48:50.004|WARN|Request not successed: Response status code does not indicate success: 404 (Not Found). |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:48:50.184|WARN|Request not successed: Response status code does not indicate success: 404 (Not Found). |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:48:50.363|WARN|Request not successed: Response status code does not indicate success: 404 (Not Found). |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:48:50.547|WARN|Request not successed: Response status code does not indicate success: 404 (Not Found). |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:48:50.736|WARN|Request not successed: Response status code does not indicate success: 404 (Not Found). |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:48:50.921|WARN|Request not successed: Response status code does not indicate success: 404 (Not Found). |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:48:51.105|WARN|Request not successed: Response status code does not indicate success: 404 (Not Found). |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:48:51.305|WARN|Request not successed: Response status code does not indicate success: 404 (Not Found). |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:48:51.486|WARN|Request not successed: Response status code does not indicate success: 404 (Not Found). |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:48:51.671|WARN|Request not successed: Response status code does not indicate success: 404 (Not Found). |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:48:51.853|WARN|Request not successed: Response status code does not indicate success: 404 (Not Found). |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:48:52.034|WARN|Request not successed: Response status code does not indicate success: 404 (Not Found). |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:48:52.223|WARN|Request not successed: Response status code does not indicate success: 404 (Not Found). |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:48:52.410|WARN|Request not successed: Response status code does not indicate success: 404 (Not Found). |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:48:52.598|WARN|Request not successed: Response status code does not indicate success: 404 (Not Found). |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:48:52.791|WARN|Request not successed: Response status code does not indicate success: 404 (Not Found). |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:48:52.993|WARN|Request not successed: Response status code does not indicate success: 404 (Not Found). |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:48:53.173|WARN|Request not successed: Response status code does not indicate success: 404 (Not Found). |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:48:53.374|WARN|Request not successed: Response status code does not indicate success: 404 (Not Found). |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:48:53.559|WARN|Request not successed: Response status code does not indicate success: 404 (Not Found). |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:48:53.742|WARN|Request not successed: Response status code does not indicate success: 404 (Not Found). |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:48:53.924|WARN|Request not successed: Response status code does not indicate success: 404 (Not Found). |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:48:54.106|WARN|Request not successed: Response status code does not indicate success: 404 (Not Found). |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:48:54.285|WARN|Request not successed: Response status code does not indicate success: 404 (Not Found). |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:48:54.469|WARN|Request not successed: Response status code does not indicate success: 404 (Not Found). |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:48:54.649|WARN|Request not successed: Response status code does not indicate success: 404 (Not Found). |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:48:54.838|WARN|Request not successed: Response status code does not indicate success: 404 (Not Found). |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:48:55.025|WARN|Request not successed: Response status code does not indicate success: 404 (Not Found). |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:48:55.211|WARN|Request not successed: Response status code does not indicate success: 404 (Not Found). |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:48:55.403|WARN|Request not successed: Response status code does not indicate success: 404 (Not Found). |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:48:55.581|WARN|Request not successed: Response status code does not indicate success: 404 (Not Found). |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:48:55.762|WARN|Request not successed: Response status code does not indicate success: 404 (Not Found). |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:48:55.942|WARN|Request not successed: Response status code does not indicate success: 404 (Not Found). |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:48:56.128|WARN|Request not successed: Response status code does not indicate success: 404 (Not Found). |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:48:56.319|WARN|Request not successed: Response status code does not indicate success: 404 (Not Found). |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:48:56.502|WARN|Request not successed: Response status code does not indicate success: 404 (Not Found). |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:48:56.682|WARN|Request not successed: Response status code does not indicate success: 404 (Not Found). |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:48:56.870|WARN|Request not successed: Response status code does not indicate success: 404 (Not Found). |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:48:57.055|WARN|Request not successed: Response status code does not indicate success: 404 (Not Found). |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:48:57.235|WARN|Request not successed: Response status code does not indicate success: 404 (Not Found). |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:48:57.416|WARN|Request not successed: Response status code does not indicate success: 404 (Not Found). |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:48:57.614|WARN|Request not successed: Response status code does not indicate success: 404 (Not Found). |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:48:57.828|WARN|Request not successed: Response status code does not indicate success: 404 (Not Found). |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:48:58.015|WARN|Request not successed: Response status code does not indicate success: 404 (Not Found). |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:48:58.198|WARN|Request not successed: Response status code does not indicate success: 404 (Not Found). |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:48:58.380|WARN|Request not successed: Response status code does not indicate success: 404 (Not Found). |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:48:58.564|WARN|Request not successed: Response status code does not indicate success: 404 (Not Found). |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:48:58.748|WARN|Request not successed: Response status code does not indicate success: 404 (Not Found). |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:48:58.940|WARN|Request not successed: Response status code does not indicate success: 404 (Not Found). |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:48:59.135|WARN|Request not successed: Response status code does not indicate success: 404 (Not Found). |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:48:59.318|WARN|Request not successed: Response status code does not indicate success: 404 (Not Found). |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:48:59.502|WARN|Request not successed: Response status code does not indicate success: 404 (Not Found). |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:48:59.689|WARN|Request not successed: Response status code does not indicate success: 404 (Not Found). |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:48:59.875|WARN|Request not successed: Response status code does not indicate success: 404 (Not Found). |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:49:00.055|WARN|Request not successed: Response status code does not indicate success: 404 (Not Found). |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:49:00.241|WARN|Request not successed: Response status code does not indicate success: 404 (Not Found). |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:49:00.432|WARN|Request not successed: Response status code does not indicate success: 404 (Not Found). |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:49:00.610|WARN|Request not successed: Response status code does not indicate success: 404 (Not Found). |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:49:00.790|WARN|Request not successed: Response status code does not indicate success: 404 (Not Found). |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:49:00.978|WARN|Request not successed: Response status code does not indicate success: 404 (Not Found). |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:49:01.160|WARN|Request not successed: Response status code does not indicate success: 404 (Not Found). |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:49:01.341|WARN|Request not successed: Response status code does not indicate success: 404 (Not Found). |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:49:01.522|WARN|Request not successed: Response status code does not indicate success: 404 (Not Found). |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:49:01.702|WARN|Request not successed: Response status code does not indicate success: 404 (Not Found). |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:49:01.888|WARN|Request not successed: Response status code does not indicate success: 404 (Not Found). |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:49:02.088|WARN|Request not successed: Response status code does not indicate success: 404 (Not Found). |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:49:02.272|WARN|Request not successed: Response status code does not indicate success: 404 (Not Found). |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:49:02.450|WARN|Request not successed: Response status code does not indicate success: 404 (Not Found). |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:49:02.630|WARN|Request not successed: Response status code does not indicate success: 404 (Not Found). |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:49:02.809|WARN|Request not successed: Response status code does not indicate success: 404 (Not Found). |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:49:02.994|WARN|Request not successed: Response status code does not indicate success: 404 (Not Found). |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:49:03.176|WARN|Request not successed: Response status code does not indicate success: 404 (Not Found). |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:49:03.359|WARN|Request not successed: Response status code does not indicate success: 404 (Not Found). |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:49:03.543|WARN|Request not successed: Response status code does not indicate success: 404 (Not Found). |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:49:03.723|WARN|Request not successed: Response status code does not indicate success: 404 (Not Found). |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:49:03.902|WARN|Request not successed: Response status code does not indicate success: 404 (Not Found). |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:49:04.085|WARN|Request not successed: Response status code does not indicate success: 404 (Not Found). |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:49:04.267|WARN|Request not successed: Response status code does not indicate success: 404 (Not Found). |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:49:04.453|WARN|Request not successed: Response status code does not indicate success: 404 (Not Found). |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:49:04.633|WARN|Request not successed: Response status code does not indicate success: 404 (Not Found). |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:49:04.813|WARN|Request not successed: Response status code does not indicate success: 404 (Not Found). |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:49:05.013|WARN|Request not successed: Response status code does not indicate success: 404 (Not Found). |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:49:05.200|WARN|Request not successed: Response status code does not indicate success: 404 (Not Found). |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:49:05.387|WARN|Request not successed: Response status code does not indicate success: 404 (Not Found). |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:49:05.571|WARN|Request not successed: Response status code does not indicate success: 404 (Not Found). |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:49:05.751|WARN|Request not successed: Response status code does not indicate success: 404 (Not Found). |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:49:05.937|WARN|Request not successed: Response status code does not indicate success: 404 (Not Found). |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:49:06.135|WARN|Request not successed: Response status code does not indicate success: 404 (Not Found). |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:49:06.319|WARN|Request not successed: Response status code does not indicate success: 404 (Not Found). |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:49:06.506|WARN|Request not successed: Response status code does not indicate success: 404 (Not Found). |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:49:06.686|WARN|Request not successed: Response status code does not indicate success: 404 (Not Found). |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:49:06.878|WARN|Request not successed: Response status code does not indicate success: 404 (Not Found). |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:49:07.059|WARN|Request not successed: Response status code does not indicate success: 404 (Not Found). |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:49:07.242|WARN|Request not successed: Response status code does not indicate success: 404 (Not Found). |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:49:07.428|WARN|Request not successed: Response status code does not indicate success: 404 (Not Found). |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:49:07.609|WARN|Request not successed: Response status code does not indicate success: 404 (Not Found). |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:49:07.812|WARN|Request not successed: Response status code does not indicate success: 404 (Not Found). |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:49:07.994|WARN|Request not successed: Response status code does not indicate success: 404 (Not Found). |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:49:08.173|WARN|Request not successed: Response status code does not indicate success: 404 (Not Found). |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:49:08.360|WARN|Request not successed: Response status code does not indicate success: 404 (Not Found). |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:49:08.543|WARN|Request not successed: Response status code does not indicate success: 404 (Not Found). |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:49:08.727|WARN|Request not successed: Response status code does not indicate success: 404 (Not Found). |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:49:08.913|WARN|Request not successed: Response status code does not indicate success: 404 (Not Found). |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:49:09.093|WARN|Request not successed: Response status code does not indicate success: 404 (Not Found). |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:49:09.277|WARN|Request not successed: Response status code does not indicate success: 404 (Not Found). |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:49:09.456|WARN|Request not successed: Response status code does not indicate success: 404 (Not Found). |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:49:09.640|WARN|Request not successed: Response status code does not indicate success: 404 (Not Found). |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:49:09.817|WARN|Request not successed: Response status code does not indicate success: 404 (Not Found). |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:49:10.005|WARN|Request not successed: Response status code does not indicate success: 404 (Not Found). |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:49:10.186|WARN|Request not successed: Response status code does not indicate success: 404 (Not Found). |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:49:10.366|WARN|Request not successed: Response status code does not indicate success: 404 (Not Found). |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:49:10.557|WARN|Request not successed: Response status code does not indicate success: 404 (Not Found). |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:49:10.741|WARN|Request not successed: Response status code does not indicate success: 404 (Not Found). |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:49:10.923|WARN|Request not successed: Response status code does not indicate success: 404 (Not Found). |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:49:11.107|WARN|Request not successed: Response status code does not indicate success: 404 (Not Found). |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:49:11.292|WARN|Request not successed: Response status code does not indicate success: 404 (Not Found). |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:49:11.483|WARN|Request not successed: Response status code does not indicate success: 404 (Not Found). |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:49:12.002|INFO|Visited: https://en.wikipedia.org/w/index.php?title=Main_Page&amp;oldid=840611669/wiki/Wikipedia |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:49:12.018|INFO|Visited: https://en.wikipedia.org/w/index.php?title=Main_Page&amp;oldid=840611669/wiki/Free_content |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:49:12.033|INFO|Visited: https://en.wikipedia.org/w/index.php?title=Main_Page&amp;oldid=840611669/wiki/Encyclopedia |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:49:12.048|INFO|Visited: https://en.wikipedia.org/w/index.php?title=Main_Page&amp;oldid=840611669/wiki/Wikipedia:Introduction |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:49:12.066|INFO|Visited: https://en.wikipedia.org/w/index.php?title=Main_Page&amp;oldid=840611669/wiki/Special:Statistics |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:49:12.080|INFO|Visited: https://en.wikipedia.org/w/index.php?title=Main_Page&amp;oldid=840611669/wiki/English_language |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:49:12.095|INFO|Visited: https://en.wikipedia.org/w/index.php?title=Main_Page&amp;oldid=840611669/wiki/Portal:Arts |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:49:12.109|INFO|Visited: https://en.wikipedia.org/w/index.php?title=Main_Page&amp;oldid=840611669/wiki/Portal:Biography |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:49:12.109|INFO|Visited: https://en.wikipedia.org/w/index.php?title=Main_Page&amp;oldid=840611669/wiki/Portal:Geography |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:49:12.129|INFO|Visited: https://en.wikipedia.org/w/index.php?title=Main_Page&amp;oldid=840611669/wiki/Portal:History |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:49:12.144|INFO|Visited: https://en.wikipedia.org/w/index.php?title=Main_Page&amp;oldid=840611669/wiki/Portal:Mathematics |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:49:12.157|INFO|Visited: https://en.wikipedia.org/w/index.php?title=Main_Page&amp;oldid=840611669/wiki/Portal:Science |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:49:12.178|INFO|Visited: https://en.wikipedia.org/w/index.php?title=Main_Page&amp;oldid=840611669/wiki/Portal:Society |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:49:12.187|INFO|Visited: https://en.wikipedia.org/w/index.php?title=Main_Page&amp;oldid=840611669/wiki/Portal:Technology |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:49:12.204|INFO|Visited: https://en.wikipedia.org/w/index.php?title=Main_Page&amp;oldid=840611669/wiki/Portal:Contents/Portals |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:49:12.219|INFO|Visited: https://en.wikipedia.org/w/index.php?title=Main_Page&amp;oldid=840611669/wiki/File:M35G12Forest_(cropped).jpg |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:49:12.237|INFO|Visited: https://en.wikipedia.org/w/index.php?title=Main_Page&amp;oldid=840611669/wiki/M-35_(Michigan_highway) |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:49:12.253|INFO|Visited: https://en.wikipedia.org/w/index.php?title=Main_Page&amp;oldid=840611669/wiki/Michigan_State_Trunkline_Highway_System |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:49:12.269|INFO|Visited: https://en.wikipedia.org/w/index.php?title=Main_Page&amp;oldid=840611669/wiki/Upper_Peninsula_of_Michigan |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:49:12.286|INFO|Visited: https://en.wikipedia.org/w/index.php?title=Main_Page&amp;oldid=840611669/wiki/Michigan |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:49:12.301|INFO|Visited: https://en.wikipedia.org/w/index.php?title=Main_Page&amp;oldid=840611669/wiki/Menominee,_Michigan |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:49:12.316|INFO|Visited: https://en.wikipedia.org/w/index.php?title=Main_Page&amp;oldid=840611669/wiki/Escanaba,_Michigan |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:49:12.331|INFO|Visited: https://en.wikipedia.org/w/index.php?title=Main_Page&amp;oldid=840611669/wiki/Negaunee,_Michigan |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:49:12.345|INFO|Visited: https://en.wikipedia.org/w/index.php?title=Main_Page&amp;oldid=840611669/wiki/Lake_Michigan_Circle_Tour |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:49:12.361|INFO|Visited: https://en.wikipedia.org/w/index.php?title=Main_Page&amp;oldid=840611669/wiki/Pure_Michigan_Byways |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:49:12.374|INFO|Visited: https://en.wikipedia.org/w/index.php?title=Main_Page&amp;oldid=840611669/wiki/Green_Bay_(Lake_Michigan) |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:49:12.391|INFO|Visited: https://en.wikipedia.org/w/index.php?title=Main_Page&amp;oldid=840611669/wiki/Lake_Michigan |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:49:12.422|INFO|Visited: https://en.wikipedia.org/w/index.php?title=Main_Page&amp;oldid=840611669/wiki/Marquette_County,_Michigan |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:49:12.447|INFO|Visited: https://en.wikipedia.org/w/index.php?title=Main_Page&amp;oldid=840611669/wiki/Big_Bay,_Michigan |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:49:12.456|INFO|Visited: https://en.wikipedia.org/w/index.php?title=Main_Page&amp;oldid=840611669/wiki/L%27Anse,_Michigan |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:49:12.486|INFO|Visited: https://en.wikipedia.org/w/index.php?title=Main_Page&amp;oldid=840611669/wiki/Ontonagon,_Michigan |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:49:12.506|INFO|Visited: https://en.wikipedia.org/w/index.php?title=Main_Page&amp;oldid=840611669/wiki/Huron_Mountains |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:49:12.514|INFO|Visited: https://en.wikipedia.org/w/index.php?title=Main_Page&amp;oldid=840611669/wiki/Baraga_County,_Michigan |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:49:12.566|INFO|Visited: https://en.wikipedia.org/w/index.php?title=Main_Page&amp;oldid=840611669/wiki/Henry_Ford |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:49:12.585|INFO|Visited: https://en.wikipedia.org/w/index.php?title=Main_Page&amp;oldid=840611669/wiki/Huron_Mountain_Club |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:49:12.594|INFO|Visited: https://en.wikipedia.org/w/index.php?title=Main_Page&amp;oldid=840611669/wiki/Princess_Helena_of_the_United_Kingdom |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:49:12.635|INFO|Visited: https://en.wikipedia.org/w/index.php?title=Main_Page&amp;oldid=840611669/wiki/Wonder_Stories |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:49:12.682|INFO|Visited: https://en.wikipedia.org/w/index.php?title=Main_Page&amp;oldid=840611669/wiki/1988_Giro_d%27Italia |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:49:12.719|INFO|Visited: https://en.wikipedia.org/w/index.php?title=Main_Page&amp;oldid=840611669/wiki/Wikipedia:Today%27s_featured_article/May_2018 |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:49:12.756|INFO|Visited: https://en.wikipedia.org/w/index.php?title=Main_Page&amp;oldid=840611669/wiki/Wikipedia:Featured_articles |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:49:12.800|INFO|Visited: https://en.wikipedia.org/w/index.php?title=Main_Page&amp;oldid=840611669/wiki/File:Foss_Couchant.jpg |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:49:12.861|INFO|Visited: https://en.wikipedia.org/w/index.php?title=Main_Page&amp;oldid=840611669/wiki/Edward_Lear |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:49:12.895|INFO|Visited: https://en.wikipedia.org/w/index.php?title=Main_Page&amp;oldid=840611669/wiki/Foss_(cat) |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:49:12.906|INFO|Visited: https://en.wikipedia.org/w/index.php?title=Main_Page&amp;oldid=840611669/wiki/1902_Ibrox_disaster |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:49:12.953|INFO|Visited: https://en.wikipedia.org/w/index.php?title=Main_Page&amp;oldid=840611669/wiki/Bobby_Templeton_(footballer,_born_1880) |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:49:12.994|INFO|Visited: https://en.wikipedia.org/w/index.php?title=Main_Page&amp;oldid=840611669/wiki/Dribbling |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:49:13.017|INFO|Visited: https://en.wikipedia.org/w/index.php?title=Main_Page&amp;oldid=840611669/wiki/Constantine_VIII |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:49:13.037|INFO|Visited: https://en.wikipedia.org/w/index.php?title=Main_Page&amp;oldid=840611669/wiki/List_of_Byzantine_emperors |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:49:13.083|INFO|Visited: https://en.wikipedia.org/w/index.php?title=Main_Page&amp;oldid=840611669/wiki/Byzantine_Empire |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:49:13.094|INFO|Visited: https://en.wikipedia.org/w/index.php?title=Main_Page&amp;oldid=840611669/wiki/Ortiz_Shift |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:49:13.127|INFO|Visited: https://en.wikipedia.org/w/index.php?title=Main_Page&amp;oldid=840611669/wiki/David_Ortiz |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:49:13.140|INFO|Visited: https://en.wikipedia.org/w/index.php?title=Main_Page&amp;oldid=840611669/wiki/Teodora_Krajewska |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:49:13.179|INFO|Visited: https://en.wikipedia.org/w/index.php?title=Main_Page&amp;oldid=840611669/wiki/First_female_physicians |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:49:13.212|INFO|Visited: https://en.wikipedia.org/w/index.php?title=Main_Page&amp;oldid=840611669/wiki/Austro-Hungarian_rule_in_Bosnia_and_Herzegovina |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:49:13.233|INFO|Visited: https://en.wikipedia.org/w/index.php?title=Main_Page&amp;oldid=840611669/wiki/Auburn_station_(Sound_Transit) |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:49:13.273|INFO|Visited: https://en.wikipedia.org/w/index.php?title=Main_Page&amp;oldid=840611669/wiki/Farmers%27_market |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:49:13.344|INFO|Visited: https://en.wikipedia.org/w/index.php?title=Main_Page&amp;oldid=840611669/wiki/Ozobranchus_branchiatus |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:49:13.417|INFO|Visited: https://en.wikipedia.org/w/index.php?title=Main_Page&amp;oldid=840611669/wiki/Green_sea_turtle |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:49:13.460|INFO|Visited: https://en.wikipedia.org/w/index.php?title=Main_Page&amp;oldid=840611669/wiki/Fatimid_Caliphate |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:49:13.501|INFO|Visited: https://en.wikipedia.org/w/index.php?title=Main_Page&amp;oldid=840611669/wiki/Kahk |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:49:13.582|INFO|Visited: https://en.wikipedia.org/w/index.php?title=Main_Page&amp;oldid=840611669/wiki/Wikipedia:Recent_additions |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:49:13.628|INFO|Visited: https://en.wikipedia.org/w/index.php?title=Main_Page&amp;oldid=840611669/wiki/Wikipedia:Your_first_article |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:49:13.647|INFO|Visited: https://en.wikipedia.org/w/index.php?title=Main_Page&amp;oldid=840611669/wiki/Template_talk:Did_you_know |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:49:13.656|INFO|Visited: https://en.wikipedia.org/w/index.php?title=Main_Page&amp;oldid=840611669/wiki/File:Nicol%C3%A1s_Maduro_in_meeting_with_Iranian_President_Hassan_Rouhani_in_Saadabad_Palace.jpg |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:49:13.836|INFO|Visited: https://en.wikipedia.org/w/index.php?title=Main_Page&amp;oldid=840611669/wiki/General_Data_Protection_Regulation |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:49:13.911|INFO|Visited: https://en.wikipedia.org/w/index.php?title=Main_Page&amp;oldid=840611669/wiki/Nicol%C3%A1s_Maduro |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:49:13.996|INFO|Visited: https://en.wikipedia.org/w/index.php?title=Main_Page&amp;oldid=840611669/wiki/Venezuelan_presidential_election,_2018 |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:49:14.018|INFO|Visited: https://en.wikipedia.org/w/index.php?title=Main_Page&amp;oldid=840611669/wiki/President_of_Venezuela |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:49:14.037|INFO|Visited: https://en.wikipedia.org/w/index.php?title=Main_Page&amp;oldid=840611669/wiki/Shoplifters_(film) |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:49:14.049|INFO|Visited: https://en.wikipedia.org/w/index.php?title=Main_Page&amp;oldid=840611669/wiki/Palme_d%27Or |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:49:14.079|INFO|Visited: https://en.wikipedia.org/w/index.php?title=Main_Page&amp;oldid=840611669/wiki/2018_Cannes_Film_Festival |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:49:14.121|INFO|Visited: https://en.wikipedia.org/w/index.php?title=Main_Page&amp;oldid=840611669/wiki/Prince_Harry,_Duke_of_Sussex |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:49:14.153|INFO|Visited: https://en.wikipedia.org/w/index.php?title=Main_Page&amp;oldid=840611669/wiki/Wedding_of_Prince_Harry_and_Meghan_Markle |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:49:14.243|INFO|Visited: https://en.wikipedia.org/w/index.php?title=Main_Page&amp;oldid=840611669/wiki/Meghan,_Duchess_of_Sussex |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:49:14.295|INFO|Visited: https://en.wikipedia.org/w/index.php?title=Main_Page&amp;oldid=840611669/wiki/Portal:Current_events |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:49:14.362|INFO|Visited: https://en.wikipedia.org/w/index.php?title=Main_Page&amp;oldid=840611669/wiki/2018_Democratic_Republic_of_the_Congo_Ebola_virus_outbreak |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:49:14.402|INFO|Visited: https://en.wikipedia.org/w/index.php?title=Main_Page&amp;oldid=840611669/wiki/Deaths_in_2018 |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:49:14.429|INFO|Visited: https://en.wikipedia.org/w/index.php?title=Main_Page&amp;oldid=840611669/wiki/TotalBiscuit |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:49:14.464|INFO|Visited: https://en.wikipedia.org/w/index.php?title=Main_Page&amp;oldid=840611669/wiki/Luis_Posada_Carriles |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:49:14.523|INFO|Visited: https://en.wikipedia.org/w/index.php?title=Main_Page&amp;oldid=840611669/wiki/Dovey_Johnson_Roundtree |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:49:14.581|INFO|Visited: https://en.wikipedia.org/w/index.php?title=Main_Page&amp;oldid=840611669/wiki/Dieter_Schnebel |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:49:14.887|INFO|Visited: https://en.wikipedia.org/w/index.php?title=Main_Page&amp;oldid=840611669/wiki/Wikipedia:In_the_news/Candidates |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:49:14.921|INFO|Visited: https://en.wikipedia.org/w/index.php?title=Main_Page&amp;oldid=840611669/wiki/May_26 |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:49:15.024|INFO|Visited: https://en.wikipedia.org/w/index.php?title=Main_Page&amp;oldid=840611669/wiki/Independence_Day_(Georgia) |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:49:15.179|INFO|Visited: https://en.wikipedia.org/w/index.php?title=Main_Page&amp;oldid=840611669/wiki/Georgia_(country) |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:49:15.248|INFO|Visited: https://en.wikipedia.org/w/index.php?title=Main_Page&amp;oldid=840611669/wiki/File:Vauxhall_Bridge_2009.jpg |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:49:15.388|INFO|Visited: https://en.wikipedia.org/w/index.php?title=Main_Page&amp;oldid=840611669/wiki/946 |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:49:15.466|INFO|Visited: https://en.wikipedia.org/w/index.php?title=Main_Page&amp;oldid=840611669/wiki/Edmund_I |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:49:15.524|INFO|Visited: https://en.wikipedia.org/w/index.php?title=Main_Page&amp;oldid=840611669/wiki/Augustine_of_Canterbury |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:49:15.565|INFO|Visited: https://en.wikipedia.org/w/index.php?title=Main_Page&amp;oldid=840611669/wiki/Mass_(liturgy) |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:49:15.577|INFO|Visited: https://en.wikipedia.org/w/index.php?title=Main_Page&amp;oldid=840611669/wiki/1637 |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:49:15.625|INFO|Visited: https://en.wikipedia.org/w/index.php?title=Main_Page&amp;oldid=840611669/wiki/Pequot_War |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:49:15.762|INFO|Visited: https://en.wikipedia.org/w/index.php?title=Main_Page&amp;oldid=840611669/wiki/Puritan |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:49:15.860|INFO|Visited: https://en.wikipedia.org/w/index.php?title=Main_Page&amp;oldid=840611669/wiki/Mohegan |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:49:15.940|INFO|Visited: https://en.wikipedia.org/w/index.php?title=Main_Page&amp;oldid=840611669/wiki/Mystic_massacre |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:49:16.085|INFO|Visited: https://en.wikipedia.org/w/index.php?title=Main_Page&amp;oldid=840611669/wiki/Pequot_Fort |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:49:16.276|INFO|Visited: https://en.wikipedia.org/w/index.php?title=Main_Page&amp;oldid=840611669/wiki/Connecticut_Colony |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:49:16.389|INFO|Visited: https://en.wikipedia.org/w/index.php?title=Main_Page&amp;oldid=840611669/wiki/1906 |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:49:16.409|INFO|Visited: https://en.wikipedia.org/w/index.php?title=Main_Page&amp;oldid=840611669/wiki/Vauxhall_Bridge |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:49:16.446|INFO|Visited: https://en.wikipedia.org/w/index.php?title=Main_Page&amp;oldid=840611669/wiki/River_Thames |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:49:16.484|INFO|Visited: https://en.wikipedia.org/w/index.php?title=Main_Page&amp;oldid=840611669/wiki/Vauxhall |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:49:16.545|INFO|Visited: https://en.wikipedia.org/w/index.php?title=Main_Page&amp;oldid=840611669/wiki/Westminster |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:49:16.649|INFO|Visited: https://en.wikipedia.org/w/index.php?title=Main_Page&amp;oldid=840611669/wiki/1938 |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:49:16.735|INFO|Visited: https://en.wikipedia.org/w/index.php?title=Main_Page&amp;oldid=840611669/wiki/House_Un-American_Activities_Committee |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:49:16.912|INFO|Visited: https://en.wikipedia.org/w/index.php?title=Main_Page&amp;oldid=840611669/wiki/American_Left#Marxist |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:49:17.032|INFO|Visited: https://en.wikipedia.org/w/index.php?title=Main_Page&amp;oldid=840611669/wiki/Fascism_in_North_America#United_States |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:49:17.111|INFO|Visited: https://en.wikipedia.org/w/index.php?title=Main_Page&amp;oldid=840611669/wiki/1991 |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:49:17.211|INFO|Visited: https://en.wikipedia.org/w/index.php?title=Main_Page&amp;oldid=840611669/wiki/Lauda_Air_Flight_004 |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:49:17.272|INFO|Visited: https://en.wikipedia.org/w/index.php?title=Main_Page&amp;oldid=840611669/wiki/Thrust_reversal |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:49:17.304|INFO|Visited: https://en.wikipedia.org/w/index.php?title=Main_Page&amp;oldid=840611669/wiki/Bede |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:49:17.330|INFO|Visited: https://en.wikipedia.org/w/index.php?title=Main_Page&amp;oldid=840611669/wiki/John_Churchill,_1st_Duke_of_Marlborough |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:49:17.354|INFO|Visited: https://en.wikipedia.org/w/index.php?title=Main_Page&amp;oldid=840611669/wiki/Imi_Lichtenfeld |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:49:17.446|INFO|Visited: https://en.wikipedia.org/w/index.php?title=Main_Page&amp;oldid=840611669/wiki/May_25 |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:49:17.488|INFO|Visited: https://en.wikipedia.org/w/index.php?title=Main_Page&amp;oldid=840611669/wiki/May_27 |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:49:17.550|INFO|Visited: https://en.wikipedia.org/w/index.php?title=Main_Page&amp;oldid=840611669/wiki/Wikipedia:Selected_anniversaries/May |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:49:17.609|INFO|Visited: https://en.wikipedia.org/w/index.php?title=Main_Page&amp;oldid=840611669/wiki/List_of_historical_anniversaries |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:49:17.705|INFO|Visited: https://en.wikipedia.org/w/index.php?title=Main_Page&amp;oldid=840611669/wiki/File:Anna_Ancher_-_Harvesters_-_Google_Art_Project.jpg |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:49:17.785|INFO|Visited: https://en.wikipedia.org/w/index.php?title=Main_Page&amp;oldid=840611669/wiki/Harvesters_(Ancher) |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:49:17.891|INFO|Visited: https://en.wikipedia.org/w/index.php?title=Main_Page&amp;oldid=840611669/wiki/Anna_Ancher |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:49:17.951|INFO|Visited: https://en.wikipedia.org/w/index.php?title=Main_Page&amp;oldid=840611669/wiki/Skagen_Painters |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:49:18.049|INFO|Visited: https://en.wikipedia.org/w/index.php?title=Main_Page&amp;oldid=840611669/wiki/Skagen |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:49:18.177|INFO|Visited: https://en.wikipedia.org/w/index.php?title=Main_Page&amp;oldid=840611669/wiki/Skagens_Museum |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:49:18.244|INFO|Visited: https://en.wikipedia.org/w/index.php?title=Main_Page&amp;oldid=840611669/wiki/Template:POTD/2018-05-25 |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:49:18.291|INFO|Visited: https://en.wikipedia.org/w/index.php?title=Main_Page&amp;oldid=840611669/wiki/Template:POTD/2018-05-24 |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:49:18.399|INFO|Visited: https://en.wikipedia.org/w/index.php?title=Main_Page&amp;oldid=840611669/wiki/Template:POTD/2018-05-23 |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:49:18.463|INFO|Visited: https://en.wikipedia.org/w/index.php?title=Main_Page&amp;oldid=840611669/wiki/Wikipedia:Picture_of_the_day/May_2018 |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:49:18.581|INFO|Visited: https://en.wikipedia.org/w/index.php?title=Main_Page&amp;oldid=840611669/wiki/Wikipedia:Featured_pictures |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:49:18.705|INFO|Visited: https://en.wikipedia.org/w/index.php?title=Main_Page&amp;oldid=840611669/wiki/Wikipedia:Community_portal |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:49:18.738|INFO|Visited: https://en.wikipedia.org/w/index.php?title=Main_Page&amp;oldid=840611669/wiki/Wikipedia:Help_desk |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:49:18.861|INFO|Visited: https://en.wikipedia.org/w/index.php?title=Main_Page&amp;oldid=840611669/wiki/Wikipedia:Local_Embassy |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:49:18.958|INFO|Visited: https://en.wikipedia.org/w/index.php?title=Main_Page&amp;oldid=840611669/wiki/Wikipedia:Reference_desk |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:49:18.988|INFO|Visited: https://en.wikipedia.org/w/index.php?title=Main_Page&amp;oldid=840611669/wiki/Wikipedia:News |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:49:19.026|INFO|Visited: https://en.wikipedia.org/w/index.php?title=Main_Page&amp;oldid=840611669/wiki/Wikipedia:Village_pump |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:49:19.140|INFO|Visited: https://en.wikipedia.org/w/index.php?title=Main_Page&amp;oldid=840611669/wiki/Wikimedia_Foundation |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:49:19.173|INFO|Visited: https://en.wikipedia.org/w/index.php?title=Main_Page&amp;oldid=840611669//commons.wikimedia.org/ |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:49:19.231|INFO|Visited: https://en.wikipedia.org/w/index.php?title=Main_Page&amp;oldid=840611669//mediawiki.org/ |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:49:19.265|INFO|Visited: https://en.wikipedia.org/w/index.php?title=Main_Page&amp;oldid=840611669//meta.wikimedia.org/ |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:49:19.368|INFO|Visited: https://en.wikipedia.org/w/index.php?title=Main_Page&amp;oldid=840611669//en.wikibooks.org/ |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:49:19.460|INFO|Visited: https://en.wikipedia.org/w/index.php?title=Main_Page&amp;oldid=840611669//www.wikidata.org/ |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:49:19.518|INFO|Visited: https://en.wikipedia.org/w/index.php?title=Main_Page&amp;oldid=840611669//en.wikinews.org/ |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:49:19.743|INFO|Visited: https://en.wikipedia.org/w/index.php?title=Main_Page&amp;oldid=840611669//en.wikiquote.org/ |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:49:19.835|INFO|Visited: https://en.wikipedia.org/w/index.php?title=Main_Page&amp;oldid=840611669//en.wikisource.org/ |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:49:19.860|INFO|Visited: https://en.wikipedia.org/w/index.php?title=Main_Page&amp;oldid=840611669//species.wikimedia.org/ |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:49:19.931|INFO|Visited: https://en.wikipedia.org/w/index.php?title=Main_Page&amp;oldid=840611669//en.wikiversity.org/ |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:49:19.961|INFO|Visited: https://en.wikipedia.org/w/index.php?title=Main_Page&amp;oldid=840611669//en.wikivoyage.org/ |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:49:19.997|INFO|Visited: https://en.wikipedia.org/w/index.php?title=Main_Page&amp;oldid=840611669//en.wiktionary.org/ |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:49:20.027|INFO|Visited: https://en.wikipedia.org/w/index.php?title=Main_Page&amp;oldid=840611669/wiki/Special:MyTalk |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:49:20.062|INFO|Visited: https://en.wikipedia.org/w/index.php?title=Main_Page&amp;oldid=840611669/wiki/Special:MyContributions |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:49:20.097|INFO|Visited: https://en.wikipedia.org/w/index.php?title=Main_Page&amp;oldid=840611669/w/index.php?title=Special:CreateAccount&amp;returnto=Main+Page&amp;returntoquery=amp%253Boldid%3D840611669 |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:49:20.157|INFO|Visited: https://en.wikipedia.org/w/index.php?title=Main_Page&amp;oldid=840611669/w/index.php?title=Special:UserLogin&amp;returnto=Main+Page&amp;returntoquery=amp%253Boldid%3D840611669 |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:49:20.221|INFO|Visited: https://en.wikipedia.org/w/index.php?title=Main_Page&amp;oldid=840611669/wiki/Main_Page |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:49:20.283|INFO|Visited: https://en.wikipedia.org/w/index.php?title=Main_Page&amp;oldid=840611669/wiki/Talk:Main_Page |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:49:20.383|INFO|Visited: https://en.wikipedia.org/w/index.php?title=Main_Page&amp;oldid=840611669/w/index.php?title=Main_Page&amp;action=edit |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:49:20.433|INFO|Visited: https://en.wikipedia.org/w/index.php?title=Main_Page&amp;oldid=840611669/w/index.php?title=Main_Page&amp;action=history |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:49:20.496|INFO|Visited: https://en.wikipedia.org/w/index.php?title=Main_Page&amp;oldid=840611669/wiki/Portal:Contents |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:49:20.610|INFO|Visited: https://en.wikipedia.org/w/index.php?title=Main_Page&amp;oldid=840611669/wiki/Portal:Featured_content |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:49:20.699|INFO|Visited: https://en.wikipedia.org/w/index.php?title=Main_Page&amp;oldid=840611669/wiki/Special:Random |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:49:20.762|INFO|Visited: https://en.wikipedia.org/w/index.php?title=Main_Page&amp;oldid=840611669//shop.wikimedia.org |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:49:20.823|INFO|Visited: https://en.wikipedia.org/w/index.php?title=Main_Page&amp;oldid=840611669/wiki/Help:Contents |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:49:20.875|INFO|Visited: https://en.wikipedia.org/w/index.php?title=Main_Page&amp;oldid=840611669/wiki/Wikipedia:About |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:49:20.942|INFO|Visited: https://en.wikipedia.org/w/index.php?title=Main_Page&amp;oldid=840611669/wiki/Special:RecentChanges |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:49:21.034|INFO|Visited: https://en.wikipedia.org/w/index.php?title=Main_Page&amp;oldid=840611669//en.wikipedia.org/wiki/Wikipedia:Contact_us |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:49:21.146|INFO|Visited: https://en.wikipedia.org/w/index.php?title=Main_Page&amp;oldid=840611669/wiki/Special:WhatLinksHere/Main_Page |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:49:21.259|INFO|Visited: https://en.wikipedia.org/w/index.php?title=Main_Page&amp;oldid=840611669/wiki/Special:RecentChangesLinked/Main_Page |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:49:21.336|INFO|Visited: https://en.wikipedia.org/w/index.php?title=Main_Page&amp;oldid=840611669/wiki/Wikipedia:File_Upload_Wizard |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:49:21.390|INFO|Visited: https://en.wikipedia.org/w/index.php?title=Main_Page&amp;oldid=840611669/wiki/Special:SpecialPages |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:49:21.437|INFO|Visited: https://en.wikipedia.org/w/index.php?title=Main_Page&amp;oldid=840611669/w/index.php?title=Main_Page&amp;oldid=840611669 |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:49:21.483|INFO|Visited: https://en.wikipedia.org/w/index.php?title=Main_Page&amp;oldid=840611669/w/index.php?title=Main_Page&amp;action=info |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:49:21.527|INFO|Visited: https://en.wikipedia.org/w/index.php?title=Main_Page&amp;oldid=840611669/w/index.php?title=Special:CiteThisPage&amp;page=Main_Page&amp;id=840611669 |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:49:21.568|INFO|Visited: https://en.wikipedia.org/w/index.php?title=Main_Page&amp;oldid=840611669/w/index.php?title=Special:Book&amp;bookcmd=book_creator&amp;referer=Main+Page |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:49:21.621|INFO|Visited: https://en.wikipedia.org/w/index.php?title=Main_Page&amp;oldid=840611669/w/index.php?title=Special:ElectronPdf&amp;page=Main+Page&amp;action=show-download-screen |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:49:21.656|INFO|Visited: https://en.wikipedia.org/w/index.php?title=Main_Page&amp;oldid=840611669/w/index.php?title=Main_Page&amp;printable=yes |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:49:21.677|INFO|Visited: https://en.wikipedia.org/w/index.php?title=Main_Page&amp;oldid=840611669//en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:49:21.702|INFO|Visited: https://en.wikipedia.org/w/index.php?title=Main_Page&amp;oldid=840611669//creativecommons.org/licenses/by-sa/3.0/ |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:49:21.723|INFO|Visited: https://en.wikipedia.org/w/index.php?title=Main_Page&amp;oldid=840611669//wikimediafoundation.org/wiki/Terms_of_Use |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:49:21.742|INFO|Visited: https://en.wikipedia.org/w/index.php?title=Main_Page&amp;oldid=840611669//wikimediafoundation.org/wiki/Privacy_policy |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:49:21.752|INFO|Visited: https://en.wikipedia.org/w/index.php?title=Main_Page&amp;oldid=840611669//www.wikimediafoundation.org/ |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:49:21.797|INFO|Visited: https://en.wikipedia.org/w/index.php?title=Main_Page&amp;oldid=840611669/wiki/Wikipedia:General_disclaimer |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:49:21.824|INFO|Visited: https://en.wikipedia.org/w/index.php?title=Main_Page&amp;oldid=840611669//en.m.wikipedia.org/w/index.php?title=Main_Page&amp;amp%3Boldid=840611669&amp;mobileaction=toggle_view_mobile |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:49:21.900|INFO|Visited: https://en.wikipedia.org/w/index.php?title=Main_Page&amp;oldid=840611669//www.mediawiki.org/ |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:49:21.989|WARN|Request not successed: Response status code does not indicate success: 404 (Not Found). |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:49:22.173|WARN|Request not successed: Response status code does not indicate success: 404 (Not Found). |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:49:22.670|WARN|Request not successed: Response status code does not indicate success: 404 (Not Found). |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:49:23.128|WARN|Request not successed: Response status code does not indicate success: 404 (Not Found). |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:49:23.308|WARN|Request not successed: Response status code does not indicate success: 404 (Not Found). |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:49:23.489|WARN|Request not successed: Response status code does not indicate success: 404 (Not Found). |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:49:23.957|WARN|Request not successed: Response status code does not indicate success: 404 (Not Found). |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:49:24.421|WARN|Request not successed: Response status code does not indicate success: 404 (Not Found). |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:49:24.602|WARN|Request not successed: Response status code does not indicate success: 404 (Not Found). |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:49:24.789|WARN|Request not successed: Response status code does not indicate success: 404 (Not Found). |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:49:24.970|WARN|Request not successed: Response status code does not indicate success: 404 (Not Found). |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:49:25.149|WARN|Request not successed: Response status code does not indicate success: 404 (Not Found). |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:49:25.328|WARN|Request not successed: Response status code does not indicate success: 404 (Not Found). |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:49:25.546|WARN|Request not successed: Response status code does not indicate success: 404 (Not Found). |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:49:25.726|WARN|Request not successed: Response status code does not indicate success: 404 (Not Found). |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:49:25.907|WARN|Request not successed: Response status code does not indicate success: 404 (Not Found). |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:49:26.090|WARN|Request not successed: Response status code does not indicate success: 404 (Not Found). |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:49:26.273|WARN|Request not successed: Response status code does not indicate success: 404 (Not Found). |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:49:26.455|WARN|Request not successed: Response status code does not indicate success: 404 (Not Found). |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:49:26.638|WARN|Request not successed: Response status code does not indicate success: 404 (Not Found). |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:49:27.109|WARN|Request not successed: Response status code does not indicate success: 404 (Not Found). |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:49:27.559|WARN|Request not successed: Response status code does not indicate success: 404 (Not Found). |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:49:28.059|WARN|Request not successed: Response status code does not indicate success: 404 (Not Found). |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:49:28.563|WARN|Request not successed: Response status code does not indicate success: 404 (Not Found). |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:49:29.035|WARN|Request not successed: Response status code does not indicate success: 404 (Not Found). |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:49:29.534|WARN|Request not successed: Response status code does not indicate success: 404 (Not Found). |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:49:29.718|WARN|Request not successed: Response status code does not indicate success: 404 (Not Found). |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:49:29.906|WARN|Request not successed: Response status code does not indicate success: 404 (Not Found). |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:49:30.086|WARN|Request not successed: Response status code does not indicate success: 404 (Not Found). |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:49:30.267|WARN|Request not successed: Response status code does not indicate success: 404 (Not Found). |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:49:30.461|WARN|Request not successed: Response status code does not indicate success: 404 (Not Found). |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:49:30.648|WARN|Request not successed: Response status code does not indicate success: 404 (Not Found). |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:49:31.105|WARN|Request not successed: Response status code does not indicate success: 404 (Not Found). |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:49:31.296|WARN|Request not successed: Response status code does not indicate success: 404 (Not Found). |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:49:31.477|WARN|Request not successed: Response status code does not indicate success: 404 (Not Found). |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:49:31.647|WARN|Request not successed: Response status code does not indicate success: 404 (Not Found). |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:49:31.828|WARN|Request not successed: Response status code does not indicate success: 404 (Not Found). |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:49:32.009|WARN|Request not successed: Response status code does not indicate success: 404 (Not Found). |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:49:32.188|WARN|Request not successed: Response status code does not indicate success: 404 (Not Found). |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:49:32.373|WARN|Request not successed: Response status code does not indicate success: 404 (Not Found). |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:49:32.552|WARN|Request not successed: Response status code does not indicate success: 404 (Not Found). |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:49:32.737|WARN|Request not successed: Response status code does not indicate success: 404 (Not Found). |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:49:32.930|WARN|Request not successed: Response status code does not indicate success: 404 (Not Found). |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:49:33.226|WARN|Request not successed: Response status code does not indicate success: 404 (Not Found). |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:49:33.547|WARN|Request not successed: Response status code does not indicate success: 404 (Not Found). |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:49:33.736|WARN|Request not successed: Response status code does not indicate success: 404 (Not Found). |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:49:33.922|WARN|Request not successed: Response status code does not indicate success: 404 (Not Found). |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:49:34.109|WARN|Request not successed: Response status code does not indicate success: 404 (Not Found). |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:49:34.296|WARN|Request not successed: Response status code does not indicate success: 404 (Not Found). |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:49:34.484|WARN|Request not successed: Response status code does not indicate success: 404 (Not Found). |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:49:34.674|WARN|Request not successed: Response status code does not indicate success: 404 (Not Found). |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:49:34.857|WARN|Request not successed: Response status code does not indicate success: 404 (Not Found). |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:49:35.045|WARN|Request not successed: Response status code does not indicate success: 404 (Not Found). |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:49:35.231|WARN|Request not successed: Response status code does not indicate success: 404 (Not Found). |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:49:35.419|WARN|Request not successed: Response status code does not indicate success: 404 (Not Found). |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:49:35.604|WARN|Request not successed: Response status code does not indicate success: 404 (Not Found). |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:49:35.793|WARN|Request not successed: Response status code does not indicate success: 404 (Not Found). |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:49:35.969|WARN|Request not successed: Response status code does not indicate success: 404 (Not Found). |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:49:36.282|WARN|Request not successed: Response status code does not indicate success: 404 (Not Found). |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:49:36.463|WARN|Request not successed: Response status code does not indicate success: 404 (Not Found). |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:49:36.647|WARN|Request not successed: Response status code does not indicate success: 404 (Not Found). |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:49:36.824|WARN|Request not successed: Response status code does not indicate success: 404 (Not Found). |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:49:37.005|WARN|Request not successed: Response status code does not indicate success: 404 (Not Found). |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:49:37.186|WARN|Request not successed: Response status code does not indicate success: 404 (Not Found). |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:49:37.370|WARN|Request not successed: Response status code does not indicate success: 404 (Not Found). |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:49:37.550|WARN|Request not successed: Response status code does not indicate success: 404 (Not Found). |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:49:37.737|WARN|Request not successed: Response status code does not indicate success: 404 (Not Found). |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:49:37.918|WARN|Request not successed: Response status code does not indicate success: 404 (Not Found). |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:49:38.103|WARN|Request not successed: Response status code does not indicate success: 404 (Not Found). |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:49:38.286|WARN|Request not successed: Response status code does not indicate success: 404 (Not Found). |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:49:38.470|WARN|Request not successed: Response status code does not indicate success: 404 (Not Found). |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:49:38.650|WARN|Request not successed: Response status code does not indicate success: 404 (Not Found). |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:49:38.833|WARN|Request not successed: Response status code does not indicate success: 404 (Not Found). |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:49:39.016|WARN|Request not successed: Response status code does not indicate success: 404 (Not Found). |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:49:39.204|WARN|Request not successed: Response status code does not indicate success: 404 (Not Found). |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:49:39.409|WARN|Request not successed: Response status code does not indicate success: 404 (Not Found). |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:49:39.601|WARN|Request not successed: Response status code does not indicate success: 404 (Not Found). |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:49:39.781|WARN|Request not successed: Response status code does not indicate success: 404 (Not Found). |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:49:40.093|WARN|Request not successed: Response status code does not indicate success: 404 (Not Found). |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:49:40.277|WARN|Request not successed: Response status code does not indicate success: 404 (Not Found). |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:49:40.462|WARN|Request not successed: Response status code does not indicate success: 404 (Not Found). |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:49:40.686|WARN|Request not successed: Response status code does not indicate success: 404 (Not Found). |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:49:40.950|WARN|Request not successed: Response status code does not indicate success: 404 (Not Found). |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:49:41.135|WARN|Request not successed: Response status code does not indicate success: 404 (Not Found). |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:49:41.317|WARN|Request not successed: Response status code does not indicate success: 404 (Not Found). |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:49:41.506|WARN|Request not successed: Response status code does not indicate success: 404 (Not Found). |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:49:41.738|WARN|Request not successed: Response status code does not indicate success: 404 (Not Found). |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:49:41.916|WARN|Request not successed: Response status code does not indicate success: 404 (Not Found). |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:49:42.099|WARN|Request not successed: Response status code does not indicate success: 404 (Not Found). |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:49:42.276|WARN|Request not successed: Response status code does not indicate success: 404 (Not Found). |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:49:42.457|WARN|Request not successed: Response status code does not indicate success: 404 (Not Found). |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:49:42.639|WARN|Request not successed: Response status code does not indicate success: 404 (Not Found). |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:49:42.822|WARN|Request not successed: Response status code does not indicate success: 404 (Not Found). |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:49:43.006|WARN|Request not successed: Response status code does not indicate success: 404 (Not Found). |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:49:43.190|WARN|Request not successed: Response status code does not indicate success: 404 (Not Found). |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:49:43.437|WARN|Request not successed: Response status code does not indicate success: 404 (Not Found). |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:49:43.621|WARN|Request not successed: Response status code does not indicate success: 404 (Not Found). |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:49:43.818|WARN|Request not successed: Response status code does not indicate success: 404 (Not Found). |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:49:44.003|WARN|Request not successed: Response status code does not indicate success: 404 (Not Found). |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:49:44.183|WARN|Request not successed: Response status code does not indicate success: 404 (Not Found). |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:49:44.366|WARN|Request not successed: Response status code does not indicate success: 404 (Not Found). |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:49:44.550|WARN|Request not successed: Response status code does not indicate success: 404 (Not Found). |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:49:44.734|WARN|Request not successed: Response status code does not indicate success: 404 (Not Found). |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:49:44.925|WARN|Request not successed: Response status code does not indicate success: 404 (Not Found). |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:49:45.110|WARN|Request not successed: Response status code does not indicate success: 404 (Not Found). |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:49:45.289|WARN|Request not successed: Response status code does not indicate success: 404 (Not Found). |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:49:45.471|WARN|Request not successed: Response status code does not indicate success: 404 (Not Found). |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:49:45.655|WARN|Request not successed: Response status code does not indicate success: 404 (Not Found). |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:49:45.843|WARN|Request not successed: Response status code does not indicate success: 404 (Not Found). |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:49:46.026|WARN|Request not successed: Response status code does not indicate success: 404 (Not Found). |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:49:46.212|WARN|Request not successed: Response status code does not indicate success: 404 (Not Found). |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:49:46.377|WARN|Request not successed: Response status code does not indicate success: 404 (Not Found). |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:49:46.567|WARN|Request not successed: Response status code does not indicate success: 404 (Not Found). |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:49:46.776|WARN|Request not successed: Response status code does not indicate success: 404 (Not Found). |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:49:46.969|WARN|Request not successed: Response status code does not indicate success: 404 (Not Found). |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:49:47.159|WARN|Request not successed: Response status code does not indicate success: 404 (Not Found). |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:49:47.337|WARN|Request not successed: Response status code does not indicate success: 404 (Not Found). |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:49:47.518|WARN|Request not successed: Response status code does not indicate success: 404 (Not Found). |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:49:47.765|WARN|Request not successed: Response status code does not indicate success: 404 (Not Found). |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:49:47.945|WARN|Request not successed: Response status code does not indicate success: 404 (Not Found). |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:49:48.125|WARN|Request not successed: Response status code does not indicate success: 404 (Not Found). |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:49:48.305|WARN|Request not successed: Response status code does not indicate success: 404 (Not Found). |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:49:48.485|WARN|Request not successed: Response status code does not indicate success: 404 (Not Found). |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:49:48.676|WARN|Request not successed: Response status code does not indicate success: 404 (Not Found). |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:49:48.861|WARN|Request not successed: Response status code does not indicate success: 404 (Not Found). |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:49:49.047|WARN|Request not successed: Response status code does not indicate success: 404 (Not Found). |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:49:49.226|WARN|Request not successed: Response status code does not indicate success: 404 (Not Found). |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:49:49.405|WARN|Request not successed: Response status code does not indicate success: 404 (Not Found). |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:49:49.584|WARN|Request not successed: Response status code does not indicate success: 404 (Not Found). |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:49:49.767|WARN|Request not successed: Response status code does not indicate success: 404 (Not Found). |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:49:49.949|WARN|Request not successed: Response status code does not indicate success: 404 (Not Found). |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:49:50.134|WARN|Request not successed: Response status code does not indicate success: 404 (Not Found). |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:49:50.317|WARN|Request not successed: Response status code does not indicate success: 404 (Not Found). |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:49:50.500|WARN|Request not successed: Response status code does not indicate success: 404 (Not Found). |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:49:50.709|WARN|Request not successed: Response status code does not indicate success: 404 (Not Found). |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:49:50.890|WARN|Request not successed: Response status code does not indicate success: 404 (Not Found). |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:49:51.079|WARN|Request not successed: Response status code does not indicate success: 404 (Not Found). |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:49:51.263|WARN|Request not successed: Response status code does not indicate success: 404 (Not Found). |WikiCrawler.HttpCrawler.HttpLinksCrawler|
+2018/05/26 18:49:51.469|WARN|Request not successed: Response status code does not indicate success: 404 (Not Found). |WikiCrawler.HttpCrawler.HttpLinksCrawler|

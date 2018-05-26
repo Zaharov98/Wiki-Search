@@ -1,13 +1,14 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
+using MessagePack;
 using SearchDbApi.Data.Context;
 using SearchDbApi.Data.Model;
 
 namespace SearchDbApi.Controllers
 {
-    [Produces("application/json")]
     [Route("api/v1/[controller]")]
     public class CrawlerController : ControllerBase
     {
@@ -22,8 +23,17 @@ namespace SearchDbApi.Controllers
 
         // POST api/v1/crawler
         [HttpPost]
-        public IActionResult IndexPage()
+        public async Task<IActionResult> IndexPage()
         {
+            var request = this.Request;
+
+            int bufferSize = 8192;
+            var buffer = new byte[bufferSize];
+            await request.Body.ReadAsync(buffer, 0, bufferSize);
+
+            var json = MessagePackSerializer.ToJson(buffer);
+            Console.WriteLine(json);
+
             return this.Ok();
         }
     }
