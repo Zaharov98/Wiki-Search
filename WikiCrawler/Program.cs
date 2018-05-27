@@ -17,14 +17,17 @@ namespace WikiCrawler
 {
     class Program
     {
+        static IConfiguration Configuration { get; set; } = BuildConfiguration(@"../../../appsettings.json");
+
+
         static async Task Main(string[] args)
         {
             try
             {
                 var logFactory = new NLogLoggerFactory();
-                logFactory.ConfigureNLog(@"../../../nlog.config");
+                logFactory.ConfigureNLog(Configuration["NLog:Configuration"]);
 
-                IConfiguration rabbitConf = BuildConfiguration(@"../../../rabbitmqConfig.json");
+                IConfiguration rabbitConf = BuildConfiguration(Configuration["RabbitMQ:Configuration"]);
                 QueueSenderBuilder queueBuilder = new QueueSenderBuilder()
                     .HostName(rabbitConf["HostName"])
                     .QueueName(rabbitConf["QueueName"])
@@ -39,7 +42,7 @@ namespace WikiCrawler
                 using (ICrawler crawler = new HttpLinksCrawler(filter.AcceptUri, logFactory.CreateLogger<HttpLinksCrawler>()))
                 {
                     crawler.Subscribe(sender.SendToQueue, () => sender.Dispose());
-                    await crawler.StartCrawling("https://en.wikipedia.org/wiki/Main_Page");
+                    await crawler.StartCrawling(Configuration["StartUri"]);
                 }
             }
             catch (Exception e)
