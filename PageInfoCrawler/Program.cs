@@ -6,24 +6,26 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Configuration.Json;
 using Microsoft.Extensions.Logging;
 using NLog.Extensions.Logging;
-using MessagePack;
+
 using PageInfoCrawler.AmqpLinksReciver;
 using PageInfoCrawler.AmqpLinksReciver.Builder;
-using PageInfoCrawler.HtmlParse;
-using System.Net.Http;
 
 namespace PageInfoCrawler
 {
     class Program
     {
+        public static IConfiguration Configuration { get; set; } = BuildConfiguration(@"../../../appsettings.json");
+
+        public static NLogLoggerFactory LoggerFactory = new NLogLoggerFactory();
+
+
         static void Main(string[] args)
         {
             try
             {
-                var logFactory = new NLogLoggerFactory();
-                logFactory.ConfigureNLog(@"../../../nlog.config");
+                LoggerFactory.ConfigureNLog(Configuration["NLog:Configuration"]);
 
-                IConfiguration rabbitConf = BuildConfiguration(@"../../../rabbitmqConfig.json");
+                IConfiguration rabbitConf = BuildConfiguration(Configuration["RabbitMQ:Configuration"]);
                 QueueReciverBuilder queueBuilder = new QueueReciverBuilder()
                     .HostName(rabbitConf["HostName"])
                     .QueueName(rabbitConf["QueueName"])
@@ -31,13 +33,11 @@ namespace PageInfoCrawler
                     .Exclusive(bool.Parse(rabbitConf["Exclusive"]))
                     .AutoDelete(bool.Parse(rabbitConf["AutoDelete"]))
                     .Arguments(null)
-                    .Logger(logFactory.CreateLogger<QueueReciver>());
-
+                    .Logger(LoggerFactory.CreateLogger<QueueReciver>());
 
                 using (var reciver = queueBuilder.Build())
                 {
-                    // TODO: Make OnNext handler
-                    reciver.Subscribe(OnNext, () => Console.WriteLine("On Complete"));
+                    reciver.Subscribe(QueueMessageHandler.OnNext, () => Console.WriteLine("On Complete"));
                     reciver.StartReciving();
                 }
             }
@@ -47,32 +47,7 @@ namespace PageInfoCrawler
             }
         }
 
-        static HttpClient client = new HttpClient() { BaseAddress = new Uri("http://localhost:50494") };
-
-        private static async void OnNext(string url)
-        {
-            try
-            {
-                var pageItems = await HtmlPageParser.GetPageItems(url);
-                var pageItemsSerialized = MessagePackSerializer.Serialize(pageItems);
-
-                // TODO: application/msgpack
-                HttpContent content = new ByteArrayContent(pageItemsSerialized);
-                await content.LoadIntoBufferAsync();
-
-                // API connection configuration
-                var requestUri = "http://localhost:50494/api/v1/crawler";
-                await client.PostAsync(requestUri, content);
-
-                Console.WriteLine($"{pageItems.PageUrl};  Links count: {pageItems.Links.Count}");
-            }
-            catch (Exception)
-            {
-                // do nothing
-            }
-        }
-
-        private static IConfiguration BuildConfiguration(string confFilePath)
+        public static IConfiguration BuildConfiguration(string confFilePath)
         {
             var configBuilder = new ConfigurationBuilder();
             configBuilder.SetBasePath(Environment.CurrentDirectory);

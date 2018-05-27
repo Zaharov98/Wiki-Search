@@ -1,0 +1,4 @@
+﻿{
+  "BaseAddress": "http://localhost:50494",
+  "PostPageInfo": "http://localhost:50494/api/v1/crawler"
+}
