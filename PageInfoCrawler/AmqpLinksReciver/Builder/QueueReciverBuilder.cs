@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Text;
 using Microsoft.Extensions.Logging;
 
-namespace Indexer.AmqpLinksReciver.Builder
+namespace PageInfoCrawler.AmqpLinksReciver.Builder
 {
     public sealed class QueueReciverBuilder
     {

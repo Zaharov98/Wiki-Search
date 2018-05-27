@@ -18,6 +18,11 @@ SearchDb/.vs
 SearchDb/SearchDbApi/bin
 SearchDb/SearchDbApi/obj
 
+# PageInfoCrawler
+PageInfoCrawler/bin
+PageInfoCrawler/obj
+PageInfoCrawler/.idea
+PageInfoCrawler/.vs
 
 # User-specific files
 *.suo

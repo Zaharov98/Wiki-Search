@@ -1,0 +1,2 @@
+2018/05/27 12:01:02.716|INFO|Connected to Queue: links |Indexer.AmqpLinksReciver.QueueReciver|
+2018/05/27 12:01:05.000|INFO|Start listening the queue links, main thread blocked |Indexer.AmqpLinksReciver.QueueReciver|

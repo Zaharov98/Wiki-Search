@@ -7,6 +7,7 @@ using Microsoft.AspNetCore;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Logging;
+using NLog.Web;
 
 namespace SearchDbApi
 {
@@ -21,6 +22,7 @@ namespace SearchDbApi
             WebHost.CreateDefaultBuilder(args)
                 // .UseIISIntegration()
                 .UseStartup<Startup>()
+                .UseNLog()
                 .Build();
     }
 }

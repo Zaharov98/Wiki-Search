@@ -7,7 +7,7 @@ using System.Net.Http;
 using HtmlAgilityPack;
 using MessagePack;
 
-namespace Indexer.HtmlParse
+namespace PageInfoCrawler.HtmlParse
 {
     public class HtmlPageParser
     {

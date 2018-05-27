@@ -7,7 +7,7 @@ using Microsoft.Extensions.Logging;
 using RabbitMQ.Client;
 using RabbitMQ.Client.Events;
 
-namespace Indexer.AmqpLinksReciver
+namespace PageInfoCrawler.AmqpLinksReciver
 {
     public class QueueReciver : IDisposable
     {

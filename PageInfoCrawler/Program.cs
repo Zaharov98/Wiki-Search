@@ -7,12 +7,12 @@ using Microsoft.Extensions.Configuration.Json;
 using Microsoft.Extensions.Logging;
 using NLog.Extensions.Logging;
 using MessagePack;
-using Indexer.AmqpLinksReciver;
-using Indexer.AmqpLinksReciver.Builder;
-using Indexer.HtmlParse;
+using PageInfoCrawler.AmqpLinksReciver;
+using PageInfoCrawler.AmqpLinksReciver.Builder;
+using PageInfoCrawler.HtmlParse;
 using System.Net.Http;
 
-namespace Indexer
+namespace PageInfoCrawler
 {
     class Program
     {
@@ -60,6 +60,7 @@ namespace Indexer
                 HttpContent content = new ByteArrayContent(pageItemsSerialized);
                 await content.LoadIntoBufferAsync();
 
+                // API connection configuration
                 var requestUri = "http://localhost:50494/api/v1/crawler";
                 await client.PostAsync(requestUri, content);
 

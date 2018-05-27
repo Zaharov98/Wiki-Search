@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using MessagePack;
 
-namespace Indexer.HtmlParse
+namespace PageInfoCrawler.HtmlParse
 {
     [MessagePackObject]
     public class HtmlPageItems

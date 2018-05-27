@@ -1,8 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.IO;
+using System.Text;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.Extensions.Logging;
 using MessagePack;
 using SearchDbApi.Data.Context;
 using SearchDbApi.Data.Model;
@@ -13,11 +15,13 @@ namespace SearchDbApi.Controllers
     public class CrawlerController : ControllerBase
     {
     #region Construstor
-        private WordsDbContext context;
+        private WordsDbContext _context;
+        private readonly ILogger<CrawlerController> _logger;
 
-        public CrawlerController(WordsDbContext context)
+        public CrawlerController(WordsDbContext context, ILogger<CrawlerController> logger)
         {
-            this.context = context;
+            this._context = context;
+            this._logger = logger;
         }
     #endregion
 
@@ -25,13 +29,16 @@ namespace SearchDbApi.Controllers
         [HttpPost]
         public async Task<IActionResult> IndexPage()
         {
-            var request = this.Request;
+            _logger.LogInformation($"POST getted");
 
-            int bufferSize = 8192;
-            var buffer = new byte[bufferSize];
-            await request.Body.ReadAsync(buffer, 0, bufferSize);
+            string body;
+            var context = this.Request.HttpContext;
+            using (var requestBodyStream = new StreamReader(context.Request.Body))
+            {
+                body = await requestBodyStream.ReadToEndAsync();
+            }
 
-            var json = MessagePackSerializer.ToJson(buffer);
+            var json = MessagePackSerializer.ToJson(Encoding.UTF8.GetBytes(body));
             Console.WriteLine(json);
 
             return this.Ok();
