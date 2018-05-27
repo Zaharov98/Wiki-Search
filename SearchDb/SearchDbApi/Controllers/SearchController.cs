@@ -30,7 +30,7 @@ namespace SearchDbApi.Controllers
         {
             _logger.LogInformation($"GET getted: {request}");
 
-            return new Url() { UrlId = 0, Value = "KyKy" };
+            return new Url() { UrlId = 0, Value = request };
         }
     }
 }
