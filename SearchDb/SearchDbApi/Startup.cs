@@ -12,6 +12,7 @@ using Microsoft.EntityFrameworkCore;
 using NLog.Extensions.Logging;
 using NLog.Web;
 using SearchDbApi.Data.Context;
+using SearchDbApi.Indexer;
 
 namespace SearchDbApi
 {
@@ -32,6 +33,7 @@ namespace SearchDbApi
                     .AddDbContext<WordsDbContext>(
                 (options) => options.UseSqlServer(Configuration["ConnectionString"])
             );
+            services.AddScoped<IPageIndexer, SearchDbIndexer>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

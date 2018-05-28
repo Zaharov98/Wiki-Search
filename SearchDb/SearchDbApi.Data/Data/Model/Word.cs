@@ -9,12 +9,12 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace SearchDbApi.Data.Model
 {
-    public class Url
+    public class Word
     {
-        [Key]
-        public int UrlId { get; set; }
+        public int WordId { get; set; }
 
-        [Column("Url")]
+        [Key]
+        [Column("Word")]
         public string Value { get; set; }
     }
 }

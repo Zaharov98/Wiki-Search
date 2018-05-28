@@ -22,5 +22,12 @@ namespace SearchDbApi.Data.Context
         {
             Database.EnsureCreated();
         }
+
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            // Configuring composite primary keys
+            // modelBuilder.Entity<Word>().HasKey(w => new { w.WordId, w.Value });
+            // modelBuilder.Entity<Url>().HasKey(u => new { u.UrlId, u.Value });
+        }
     }
 }

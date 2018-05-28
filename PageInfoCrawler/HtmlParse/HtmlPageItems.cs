@@ -14,6 +14,6 @@ namespace PageInfoCrawler.HtmlParse
         public IList<string> Links { get; set; }
 
         [Key("WordLocations")]
-        public IDictionary<string, List<int>> WordLocations { get; set; }
+        public IDictionary<string, IList<int>> WordLocations { get; set; }
     }
 }

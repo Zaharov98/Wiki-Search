@@ -15,12 +15,12 @@ namespace SearchDbApi.Data.Model
 
         [ForeignKey("FromUrl")]
         [Column(Order = 1)]
-        public int? FromUrlId { get; set; }
+        public string FromUrlId { get; set; }
         public Url FromUrl { get; set; }
 
         [ForeignKey("ToUrl")]
         [Column(Order = 2)]
-        public int? ToUrlId { get; set; }
+        public string ToUrlId { get; set; }
         public Url ToUrl { get; set; }
     }
 }

@@ -13,7 +13,7 @@ namespace SearchDbApi.Data.Model
     {
         [Key]
         [ForeignKey("Url")]
-        public int? UrlId { get; set; }
+        public string UrlId { get; set; }
         public Url Url { get; set; }
 
         public int Score { get; set; }

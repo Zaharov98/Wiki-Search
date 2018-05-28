@@ -42,9 +42,9 @@ namespace PageInfoCrawler.HtmlParse
         }
 
 
-        public static IDictionary<string, List<int>> WordsLocationDict(string text)
+        public static IDictionary<string, IList<int>> WordsLocationDict(string text)
         {
-            var wordLocationDict = new Dictionary<string, List<int>>();
+            var wordLocationDict = new Dictionary<string, IList<int>>();
             var wordAcumulator = new StringBuilder();
 
             int idx = 0;

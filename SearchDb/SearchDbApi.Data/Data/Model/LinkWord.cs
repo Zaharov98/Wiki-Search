@@ -18,7 +18,7 @@ namespace SearchDbApi.Data.Model
         public Link Link { get; set; }
 
         [ForeignKey("Word")]
-        public int? WordId { get; set; }
+        public string WordId { get; set; }
         public Word Word { get; set; }
     }
 }
