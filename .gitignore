@@ -12,11 +12,14 @@ SearchPage/obj
 WikiCrawler/.idea
 WikiCrawler/bin
 WikiCrawler/obj
+WikiCrawler/var/CrawlerLog.txt
+WikiCrawler/var/QueueLog.txt
 
 # SearchDb project
 SearchDb/.vs
 SearchDb/SearchDbApi/bin
 SearchDb/SearchDbApi/obj
+SearchDb/SearchDbApi/var/CrawlerLog.txt
 
 # PageInfoCrawler
 PageInfoCrawler/bin
