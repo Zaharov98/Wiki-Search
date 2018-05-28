@@ -1,2 +1,0 @@
-2018/05/27 16:05:09.664|INFO|GET getted: hello world |SearchDbApi.Controllers.SearchController|
-2018/05/27 16:05:09.869|INFO|GET getted: hello world |SearchDbApi.Controllers.SearchController|
