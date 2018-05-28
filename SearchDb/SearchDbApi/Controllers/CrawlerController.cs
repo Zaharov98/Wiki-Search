@@ -38,11 +38,30 @@ namespace SearchDbApi.Controllers
             var data = await MessagePackSerializer.DeserializeAsync<dynamic>(context.Request.Body, ContractlessStandardResolver.Instance);
 
             var baseUri = data?["Url"] as string ?? String.Empty;
-            var linksList = data?["Links"] as IList<string> ?? new List<string>();
-            var wordsLocation = data?["WordLocations"] as IDictionary<string, IList<int>> 
-                ?? new Dictionary<string, IList<int>>();
+            if (baseUri != String.Empty) {
+                var linksList = data?["Links"] ?? new List<string>();
+                
+                var wordsLocation = data?["WordLocations"]
+                    ?? new Dictionary<string, IList<int>>();
 
-            await _indexer.AddToIndexAsync(baseUri, linksList, wordsLocation);
+                var links = new List<string>();
+                foreach (var item in linksList) {
+                    links.Add(item.ToString());
+                }
+
+                IDictionary<string, IList<int>> wl = new Dictionary<string, IList<int>>();
+                foreach (var key in wordsLocation.Keys) {
+                    List<int> locations = new List<int>();
+                    foreach (var value in wordsLocation[key]) {
+                        var strNumber = value.ToString();
+                        locations.Add(int.Parse(strNumber));
+                    }
+                    wl.Add(key.ToString(), locations);
+                }
+
+                await _indexer.AddToIndexAsync(baseUri, links, wl);
+            }
+            
 
             return this.Ok();
         }

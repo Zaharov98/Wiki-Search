@@ -56,6 +56,7 @@ namespace WikiCrawler.HttpCrawler
             }
 
             ISet<string> fetchedUris = new HashSet<string>() { startUri };
+            _urisSubject.OnNext(startUri);
 
             while (fetchedUris.Count > 0)
             {
@@ -69,7 +70,8 @@ namespace WikiCrawler.HttpCrawler
                         var htmlDoc = ParseHtmlCode(htmlPageCode);
                         var docUris = FetchHtmDocUris(baseUri: uri, htmlDoc);
                         foreach (var fetched in docUris) {
-                            if (_isAcceptableUri(fetched)) {
+                            if (_isAcceptableUri(fetched)) 
+                            {
                                 _log.LogInformation($"Visited: {fetched}");
                                 loopedUris.Add(fetched);
                                 _urisSubject.OnNext(fetched);

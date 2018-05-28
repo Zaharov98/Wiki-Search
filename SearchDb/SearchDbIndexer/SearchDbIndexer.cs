@@ -22,15 +22,17 @@ namespace SearchDbApi.Indexer
             try
             {
                 var urlObj = await AddOrFindUrlAsync(url);
+                await AddWordsAsync(wordLocations.Keys);
                 await AddWordsLocationsAsync(urlObj, wordLocations);
                 await AddLinksAsync(urlObj, links);
+                await AddUrlWordsAsync(links);
 
                 return true;
             }
             catch (Exception e)
             {
                 // not added to index
-                Console.WriteLine(e); // TODO: logging
+                Console.WriteLine(e.Message); // TODO: logging
                 return false;
             }    
         }

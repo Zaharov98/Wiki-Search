@@ -13,7 +13,7 @@ namespace SearchDbApi.Data.Context
         public DbSet<Url> Urls { get; set; }
         public DbSet<WordLocation> WordLocations { get; set; }
         public DbSet<Link> Links { get; set; }
-        public DbSet<LinkWord> LinkWords { get; set; }
+        public DbSet<UrlWord> UrlWords { get; set; }
         public DbSet<PageRank> PageRanks { get; set; }
 
 

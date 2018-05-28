@@ -1,0 +1,4 @@
+2018/05/29 01:28:31.667|INFO|Page getted: http://localhost:8000//Page.html |PageInfoCrawler.QueueMessageHandler|
+2018/05/29 01:28:32.035|INFO|Page getted: http://localhost:8000/ |PageInfoCrawler.QueueMessageHandler|
+2018/05/29 01:28:53.700|INFO|Page getted: http://localhost:8000/ |PageInfoCrawler.QueueMessageHandler|
+2018/05/29 01:28:54.673|INFO|Page getted: http://localhost:8000//Page.html |PageInfoCrawler.QueueMessageHandler|

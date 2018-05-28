@@ -9,15 +9,13 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace SearchDbApi.Data.Model
 {
-    public class LinkWord
+    public class UrlWord
     {
-        public int LinkWordId { get; set; }
+        public int UrlWordId { get; set; }
 
-        [ForeignKey("Link")]
-        public int? LinkId { get; set; }
-        public Link Link { get; set; }
+        public string UrlId { get; set; }
+        public Url Url { get; set; }
 
-        [ForeignKey("Word")]
         public string WordId { get; set; }
         public Word Word { get; set; }
     }

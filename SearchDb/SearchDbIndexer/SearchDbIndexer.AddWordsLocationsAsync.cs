@@ -36,9 +36,9 @@ namespace SearchDbApi.Indexer
         private async Task<Word> AddOrFindWordAsync(string word)
         {
             var wordObj = await _context.Words.FindAsync(word);
-            if (word == null)
+            if (wordObj == null)
             {
-                var wordEntity = await _context.AddAsync(new Word() { Value = word });
+                var wordEntity = await _context.Words.AddAsync(new Word() { Value = word });
                 wordObj = wordEntity.Entity;
             }
 
