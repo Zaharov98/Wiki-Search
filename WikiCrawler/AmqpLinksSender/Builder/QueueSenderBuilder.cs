@@ -2,74 +2,29 @@
 using System.Collections.Generic;
 using System.Threading.Tasks;
 using Microsoft.Extensions.Logging;
+using RmqQueue;
+using RmqQueue.Builder;
+using WikiCrawler.AmqpLinksSender;
 
 namespace WikiCrawler.AmqpLinksSender.Builder
 {
-    public sealed class QueueSenderBuilder
+    public sealed class QueueSenderBuilder : RmqQueueBuilder<QueueSender>
     {
-        private string _hostName;
-        private string _queueName;
+        private ILogger<QueueSender> _logger;    
 
-        private bool _durable = false;
-        private bool _exclusive = false;
-        private bool _autoDelete = false;
-        private IDictionary<string, object> _arguments;
-
-        private ILogger<QueueSender> _log;
-
-        public QueueSenderBuilder() { }
-
-
-        public QueueSender Build()
+        public override QueueSender Build()
         {
             QueueSender processor = new QueueSender(
-                logger: _log, hostName: _hostName, queueName: _queueName, durable: _durable, 
-                exclusive: _exclusive, autoDelete: _autoDelete, arguments: _arguments
+                logger: _logger, hostName: base.hostName, queueName: base.queueName, durable: base.durable, 
+                exclusive: base.exclusive, autoDelete: base.autoDelete, arguments: base.arguments
             );
 
             return processor;
         }
 
-
-        public QueueSenderBuilder HostName(string name)
+        public RmqQueueBuilder<QueueSender> Logger(ILogger<QueueSender> logger)
         {
-            _hostName = name;
-            return this;
-        }
-
-        public QueueSenderBuilder QueueName(string name)
-        {
-            _queueName = name;
-            return this;
-        }
-
-        public QueueSenderBuilder Durable(bool durable)
-        {
-            _durable = durable;
-            return this;
-        }
-
-        public QueueSenderBuilder Exclusive(bool exclusive)
-        {
-            _exclusive = exclusive;
-            return this;
-        }
-
-        public QueueSenderBuilder AutoDelete(bool autoDelete)
-        {
-            _autoDelete = autoDelete;
-            return this;
-        }
-
-        public QueueSenderBuilder Arguments(IDictionary<string, object> arguments)
-        {
-            _arguments = arguments;
-            return this;
-        }
-
-        public QueueSenderBuilder Logger(ILogger<QueueSender> logger)
-        {
-            _log = logger;
+            this._logger = logger;
             return this;
         }
     }

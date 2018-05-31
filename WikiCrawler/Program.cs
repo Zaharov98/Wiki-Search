@@ -1,4 +1,5 @@
 ﻿using System;
+using System.IO;
 using System.Collections.Generic;
 using System.Threading.Tasks;
 using Microsoft.Extensions;
@@ -11,7 +12,6 @@ using WikiCrawler.HttpCrawler;
 using WikiCrawler.WikiUriFilter;
 using WikiCrawler.AmqpLinksSender;
 using WikiCrawler.AmqpLinksSender.Builder;
-using System.IO;
 
 namespace WikiCrawler
 {
@@ -28,20 +28,22 @@ namespace WikiCrawler
                 logFactory.ConfigureNLog(Configuration["NLog:Configuration"]);
 
                 IConfiguration rabbitConf = BuildConfiguration(Configuration["RabbitMQ:Configuration"]);
-                QueueSenderBuilder queueBuilder = new QueueSenderBuilder()
+                QueueSender queueSender = new QueueSenderBuilder()
+                    .Logger(logFactory.CreateLogger<QueueSender>())
                     .HostName(rabbitConf["HostName"])
                     .QueueName(rabbitConf["QueueName"])
                     .Durable(bool.Parse(rabbitConf["Durable"]))
                     .Exclusive(bool.Parse(rabbitConf["Exclusive"]))
                     .AutoDelete(bool.Parse(rabbitConf["AutoDelete"]))
                     .Arguments(null)
-                    .Logger(logFactory.CreateLogger<QueueSender>());
+                    .Build();
+                    
 
                 EnglishWikiFilter filter = new EnglishWikiFilter();
-                using (QueueSender sender = queueBuilder.Build())
+                using (queueSender)
                 using (ICrawler crawler = new HttpLinksCrawler(filter.AcceptUri, logFactory.CreateLogger<HttpLinksCrawler>()))
                 {
-                    crawler.Subscribe(sender.SendToQueue, () => sender.Dispose());
+                    crawler.Subscribe(queueSender.SendToQueue, () => queueSender.Dispose());
                     await crawler.StartCrawling(Configuration["StartUri"]);
                 }
             }

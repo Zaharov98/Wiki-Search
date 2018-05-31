@@ -1,1 +1,0 @@
-2018/05/29 01:28:53.417|INFO|Visited: http://localhost:8000//Page.html |WikiCrawler.HttpCrawler.HttpLinksCrawler|

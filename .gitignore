@@ -8,6 +8,12 @@ SearchPage/.idea
 SearchPage/bin
 SearchPage/obj
 
+# RmqQueue
+RmqQueue/bin
+RmqQueue/obj
+RmqQueue/.idea
+RmqQueue/.vs
+
 # WikiCrawler project
 WikiCrawler/.idea
 WikiCrawler/bin

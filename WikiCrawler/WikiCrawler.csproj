@@ -14,4 +14,12 @@
     <PackageReference Include="RabbitMQ.Client" Version="5.0.1" />
     <PackageReference Include="System.Reactive" Version="4.0.0-preview.2.build.379" />
   </ItemGroup>
+  <ItemGroup>
+    <Reference Include="RmqQueue">
+      <HintPath>..\RmqQueue\bin\Debug\netcoreapp2.0\RmqQueue.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\RmqQueue\RmqQueue.csproj" />
+  </ItemGroup>
 </Project>

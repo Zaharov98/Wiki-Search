@@ -1,4 +1,0 @@
-2018/05/29 01:28:52.098|INFO|Connected to Queue: links |WikiCrawler.AmqpLinksSender.QueueSender|
-2018/05/29 01:28:52.232|INFO|Send: http://localhost:8000/ |WikiCrawler.AmqpLinksSender.QueueSender|
-2018/05/29 01:28:53.422|INFO|Send: http://localhost:8000//Page.html |WikiCrawler.AmqpLinksSender.QueueSender|
-2018/05/29 01:28:54.464|WARN|Queue links Disposed |WikiCrawler.AmqpLinksSender.QueueSender|
