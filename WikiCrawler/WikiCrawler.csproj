@@ -19,7 +19,4 @@
       <HintPath>..\RmqQueue\bin\Debug\netcoreapp2.0\RmqQueue.dll</HintPath>
     </Reference>
   </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\RmqQueue\RmqQueue.csproj" />
-  </ItemGroup>
 </Project>

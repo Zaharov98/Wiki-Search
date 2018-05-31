@@ -22,7 +22,7 @@ namespace WikiCrawler.AmqpLinksSender.Builder
             return processor;
         }
 
-        public RmqQueueBuilder<QueueSender> Logger(ILogger<QueueSender> logger)
+        public QueueSenderBuilder Logger(ILogger<QueueSender> logger)
         {
             this._logger = logger;
             return this;

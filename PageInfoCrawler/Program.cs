@@ -6,7 +6,6 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Configuration.Json;
 using Microsoft.Extensions.Logging;
 using NLog.Extensions.Logging;
-
 using PageInfoCrawler.AmqpLinksReciver;
 using PageInfoCrawler.AmqpLinksReciver.Builder;
 
@@ -26,19 +25,21 @@ namespace PageInfoCrawler
                 LoggerFactory.ConfigureNLog(Configuration["NLog:Configuration"]);
 
                 IConfiguration rabbitConf = BuildConfiguration(Configuration["RabbitMQ:Configuration"]);
-                QueueReciverBuilder queueBuilder = new QueueReciverBuilder()
+                QueueReciver queueReciver = new QueueReciverBuilder()
+                    .Logger(LoggerFactory.CreateLogger<QueueReciver>())
                     .HostName(rabbitConf["HostName"])
                     .QueueName(rabbitConf["QueueName"])
                     .Durable(bool.Parse(rabbitConf["Durable"]))
                     .Exclusive(bool.Parse(rabbitConf["Exclusive"]))
                     .AutoDelete(bool.Parse(rabbitConf["AutoDelete"]))
                     .Arguments(null)
-                    .Logger(LoggerFactory.CreateLogger<QueueReciver>());
+                    .Build();
+                    
 
-                using (var reciver = queueBuilder.Build())
+                using (queueReciver)
                 {
-                    reciver.Subscribe(QueueMessageHandler.OnNext, () => Console.WriteLine("On Complete"));
-                    reciver.StartReciving();
+                    queueReciver.Subscribe(QueueMessageHandler.OnNext, () => Console.WriteLine("On Complete"));
+                    queueReciver.StartReciving();
                 }
             }
             catch (Exception e)

@@ -17,4 +17,10 @@
     <PackageReference Include="System.Reactive" Version="4.0.0" />
   </ItemGroup>
 
+    <ItemGroup>
+      <Reference Include="RmqQueue">
+        <HintPath>..\RmqQueue\bin\Debug\netcoreapp2.0\RmqQueue.dll</HintPath>
+      </Reference>
+    </ItemGroup>
+
 </Project>

@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace RmqQueue
 {
-    public interface IQueueReciver<TMessage>
+    public interface IQueueReciver
     {
         void StartReciving();
     }

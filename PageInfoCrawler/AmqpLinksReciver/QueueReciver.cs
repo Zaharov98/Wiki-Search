@@ -6,63 +6,33 @@ using System.Reactive.Subjects;
 using Microsoft.Extensions.Logging;
 using RabbitMQ.Client;
 using RabbitMQ.Client.Events;
+using RmqQueue;
 
 namespace PageInfoCrawler.AmqpLinksReciver
 {
-    public class QueueReciver : IDisposable
-    {
-        private readonly string _hostName;
-        private readonly string _queueName;
-        private readonly bool _durable = false;
-        private readonly bool _exclusive = false;
-        private readonly bool _autoDelete = false;
-        private readonly IDictionary<string, object> _arguments = null;
-
-        private readonly IConnection connection;
-        private readonly IModel channel;
-        private bool _isDisposed;
-        ILogger<QueueReciver> _log;
-
+    public class QueueReciver : RmqQueueBase, IQueueReciver, IDisposable
+    {    
+        private readonly ILogger<QueueReciver> _log;
         private Subject<string> _messageSubject;
 
 
         public QueueReciver(ILogger<QueueReciver> logger, string hostName, string queueName,
                          bool durable, bool exclusive, bool autoDelete,
                          IDictionary<string, object> arguments)
+            : base(hostName, queueName, durable, exclusive, autoDelete, arguments)
         {
-            _hostName = hostName;
-            _queueName = queueName;
-            _durable = durable;
-            _exclusive = exclusive;
-            _autoDelete = autoDelete;
-            _arguments = arguments;
-
             _log = logger;
-
             _messageSubject = new Subject<string>();
-
-            var factory = new ConnectionFactory() { HostName = _hostName };
-            connection = factory.CreateConnection();
-            channel = connection.CreateModel();
-            channel.QueueDeclare(queue: _queueName, durable: _durable, exclusive: _exclusive,
-                                 autoDelete: _autoDelete, arguments: _arguments);
-
-            _log.LogInformation($"Connected to Queue: {_queueName}");
+            _log.LogInformation($"Connected to Queue: {base._queueName}");
         }
 
-        public void Dispose()
+
+        public new void Dispose()
         {
-            if (!_isDisposed)
-            {
-                // the order is important
-                channel.Dispose();
-                connection.Dispose();
-
-                _isDisposed = true;
-
-                _log.LogWarning($"Queue {_queueName} Disposed");
-            }
+            base.Dispose();
+            _log.LogWarning($"Queue {base._queueName} Disposed");
         }
+
 
         public void Subscribe(Action<string> onNext, Action onCompleted)
         {
@@ -92,6 +62,7 @@ namespace PageInfoCrawler.AmqpLinksReciver
                 throw new OperationCanceledException("Exception while reciving RabbitMQ", e);
             }
         }
+
 
         public void _BlockAndListen()
         {

@@ -25,12 +25,12 @@ namespace PageInfoCrawler
         {
             try
             {
+                Console.WriteLine(url); // Ultra logging
                 var pageItems = await HtmlPageParser.GetPageItems(url);
                 var pageItemsSerialized = MessagePackSerializer.Serialize(pageItems);
                 await CrawlerApi.PostPageInfoAsync(pageItemsSerialized);
 
                 logger.LogInformation($"Page getted: {url}");
-                Console.WriteLine(url);
             }
             catch (Exception)
             {
