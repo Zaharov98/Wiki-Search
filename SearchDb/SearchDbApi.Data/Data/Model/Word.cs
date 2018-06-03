@@ -11,10 +11,9 @@ namespace SearchDbApi.Data.Model
 {
     public class Word
     {
-        public int WordId { get; set; }
-
         [Key]
         [Column("Word")]
+        [MaxLength(400)]
         public string Value { get; set; }
     }
 }

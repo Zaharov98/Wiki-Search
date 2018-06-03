@@ -11,8 +11,9 @@ namespace SearchDbApi.Data.Model
 {
     public class Link
     {
+        [Key]
         public int LinkId { get; set; }
-
+        
         [ForeignKey("FromUrl")]
         [Column(Order = 1)]
         public string FromUrlId { get; set; }

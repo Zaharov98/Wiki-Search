@@ -11,10 +11,10 @@ namespace SearchDbApi.Data.Model
 {
     public class Url
     {
-        public int UrlId { get; set; }
-
         [Key]
         [Column("Url")]
+        [MaxLength(450)]
         public string Value { get; set; }
+        public bool Indexed { get; set; }
     }
 }
