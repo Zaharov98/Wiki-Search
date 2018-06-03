@@ -13,7 +13,7 @@ namespace PageInfoCrawler
 {
     class Program
     {
-        public static IConfiguration Configuration { get; set; } = BuildConfiguration(@"../../../appsettings.json");
+        public static IConfiguration Configuration { get; set; } = BuildConfiguration(@"./appsettings.json");
 
         public static NLogLoggerFactory LoggerFactory = new NLogLoggerFactory();
 

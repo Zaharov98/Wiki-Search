@@ -39,31 +39,49 @@ namespace SearchDbApi.Controllers
 
             var baseUri = data?["Url"] as string ?? String.Empty;
             if (baseUri != String.Empty) {
-                var linksList = data?["Links"] ?? new List<string>();
-                
-                var wordsLocation = data?["WordLocations"]
+
+                var links = ValidateLinksList(data);
+                var wordsLocation = ValidateWordsLocationDict(data); 
+                await _indexer.AddToIndexAsync(baseUri, links, wordsLocation);
+
+                return this.Ok();
+            }
+            else {
+                return this.NoContent();
+            }
+        }
+
+
+        private IEnumerable<string> ValidateLinksList(dynamic data)
+        {
+            var recivedLinks = data?["Links"] ?? new List<string>();
+
+            var linksList = new List<string>();
+            foreach (var item in recivedLinks)
+            {
+                linksList.Add(item.ToString());
+            }
+
+            return linksList;
+        }
+
+
+        private IDictionary<string, IList<int>> ValidateWordsLocationDict(dynamic data)
+        {
+            var recivedWordsLocation = data?["WordLocations"]
                     ?? new Dictionary<string, IList<int>>();
 
-                var links = new List<string>();
-                foreach (var item in linksList) {
-                    links.Add(item.ToString());
+            IDictionary<string, IList<int>> wordsLocation = new Dictionary<string, IList<int>>();
+            foreach (var key in recivedWordsLocation.Keys) {
+                List<int> locations = new List<int>();
+                foreach (var value in recivedWordsLocation[key]) {
+                    var strNumber = value.ToString();
+                    locations.Add(int.Parse(strNumber));
                 }
-
-                IDictionary<string, IList<int>> wl = new Dictionary<string, IList<int>>();
-                foreach (var key in wordsLocation.Keys) {
-                    List<int> locations = new List<int>();
-                    foreach (var value in wordsLocation[key]) {
-                        var strNumber = value.ToString();
-                        locations.Add(int.Parse(strNumber));
-                    }
-                    wl.Add(key.ToString(), locations);
-                }
-
-                await _indexer.AddToIndexAsync(baseUri, links, wl);
+                wordsLocation.Add(key.ToString(), locations);
             }
-            
 
-            return this.Ok();
+            return wordsLocation;
         }
     }
 }

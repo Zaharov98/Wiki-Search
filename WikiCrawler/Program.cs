@@ -17,7 +17,7 @@ namespace WikiCrawler
 {
     class Program
     {
-        static IConfiguration Configuration { get; set; } = BuildConfiguration(@"../../../appsettings.json");
+        static IConfiguration Configuration { get; set; } = BuildConfiguration(@"./appsettings.json");
 
 
         static async Task Main(string[] args)
@@ -36,8 +36,7 @@ namespace WikiCrawler
                     .Exclusive(bool.Parse(rabbitConf["Exclusive"]))
                     .AutoDelete(bool.Parse(rabbitConf["AutoDelete"]))
                     .Arguments(null)
-                    .Build();
-                    
+                    .Build(); 
 
                 EnglishWikiFilter filter = new EnglishWikiFilter();
                 using (queueSender)

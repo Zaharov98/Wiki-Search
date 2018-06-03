@@ -14,11 +14,9 @@ namespace SearchDbApi.Indexer
         {
             var locationsList = new List<WordLocation>();
 
-            foreach (var word in wordLocations.Keys)
-            {
-                var wordObj = await AddOrFindWordAsync(word);
-                foreach (var location in wordLocations[word])
-                {
+            foreach (var word in wordLocations.Keys) {
+                var wordObj = await FindOrAddWordAsync(word);
+                foreach (var location in wordLocations[word]) {
                     locationsList.Add(new WordLocation()
                     {
                         Word = wordObj,
@@ -29,15 +27,13 @@ namespace SearchDbApi.Indexer
             }
 
             await _context.WordLocations.AddRangeAsync(locationsList);
-            await _context.SaveChangesAsync();
         }
 
 
-        private async Task<Word> AddOrFindWordAsync(string word)
+        private async Task<Word> FindOrAddWordAsync(string word)
         {
             var wordObj = await _context.Words.FindAsync(word);
-            if (wordObj == null)
-            {
+            if (wordObj == null) {
                 var wordEntity = await _context.Words.AddAsync(new Word() { Value = word });
                 wordObj = wordEntity.Entity;
             }

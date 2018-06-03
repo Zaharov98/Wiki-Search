@@ -11,27 +11,28 @@ namespace SearchDbApi.Indexer
 {
     public partial class SearchDbIndexer : IPageIndexer
     {
-        private async Task AddUrlWordsAsync(IEnumerable<string> links)
+        private async Task AddUrlWordsAsync(string url)
         {
-            foreach (var link in links) {
-                var linkObj = await _context.Urls.FindAsync(link);
-                foreach (var word in FetchWords(link)) {
-                    var wordObj = await _context.Words.FindAsync(word);
-                    if (wordObj == null) {
-                        await _context.Words.AddAsync(new Word() { Value = word });
-                        await _context.SaveChangesAsync();
-                        wordObj = await _context.Words.FindAsync(word);
-                    }
+            ISet<string> addedWords = new HashSet<string>();  // To aviod duplication
 
-                    await _context.UrlWords.AddAsync(new UrlWord()
-                    {
-                        Url = linkObj,
-                        Word = wordObj,
-                    });
+            var urlObj = await _context.Urls.FindAsync(url);
+            foreach (var word in FetchWords(url)) {
+                var wordObj = await _context.Words.FindAsync(word);
+
+                if (wordObj == null && !addedWords.Contains(word))
+                {// Insert into database
+                    await _context.Words.AddAsync(new Word() { Value = word });
+                    wordObj = await _context.Words.FindAsync(word);
+
+                    addedWords.Add(word); // To avoid PK duplication
                 }
-            }
 
-            await _context.SaveChangesAsync();
+                await _context.UrlWords.AddAsync(new UrlWord()
+                {
+                    Url = urlObj,
+                    Word = wordObj,
+                });
+            }
         }
 
         private IList<string> FetchWords(string url)

@@ -13,15 +13,29 @@ namespace SearchDbApi.Indexer
         private async Task AddWordsAsync(IEnumerable<string> words)
         {
             var wordsList = new List<Word>();
+            ISet<string> addedWords = new HashSet<string>();
+
             foreach (var word in words) {
-                var searchRes = await _context.Words.FindAsync(word);
-                if (searchRes == null) {
-                    wordsList.Add(new Word() { Value = word });
+                if (IsFromLetters(word)) {
+                    var searchRes = await _context.Words.FindAsync(word);
+                    if (searchRes == null  && !addedWords.Contains(word)) {
+                        wordsList.Add(new Word() { Value = word });
+                        addedWords.Add(word); // To avoid PK duplication
+                    }
                 }
             }
-
+            
             await _context.Words.AddRangeAsync(wordsList);
-            await _context.SaveChangesAsync();
+        }
+
+        private bool IsFromLetters(string word)
+        {
+            foreach (var symb in word) {
+                if (!char.IsLetter(symb)) {
+                    return false;
+                }
+            }
+            return true;
         }
     }
 }

@@ -14,9 +14,8 @@ namespace SearchDbApi.Indexer
         {
             var linksList = new List<Link>();
 
-            foreach (var link in links)
-            {
-                var linkObj = await AddOrFindUrlAsync(link);
+            foreach (var link in links) {
+                var linkObj = await FindOrAddUrlAsync(link);
                 linksList.Add(new Link()
                 {
                     FromUrl = urlObj,
@@ -25,19 +24,17 @@ namespace SearchDbApi.Indexer
             }
 
             await _context.Links.AddRangeAsync(linksList);
-            await _context.SaveChangesAsync();
         }
 
-        private async Task<Url> AddOrFindUrlAsync(string url)
+        private async Task<Url> FindOrAddUrlAsync(string url)
         {
             var urlObj = await _context.Urls.FindAsync(url);
-            if (urlObj == null)
-            {
-                var urlEntity = await _context.AddAsync(new Url() { Value = url });
+            if (urlObj == null) {
+                var urlEntity = await _context.AddAsync(new Url() { Value = url, Indexed = false });
                 urlObj = urlEntity.Entity;
             }
 
             return urlObj;
-        }
+        }           
     }
 }

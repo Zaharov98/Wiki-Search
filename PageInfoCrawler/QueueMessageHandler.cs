@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
+using System.Threading.Tasks;
 using Microsoft.Extensions.Logging;
 using NLog.Extensions.Logging;
 using MessagePack;
@@ -25,11 +26,13 @@ namespace PageInfoCrawler
         {
             try
             {
+                Task.Delay(30000).Wait(); // Database is weak
+
                 Console.WriteLine(url); // Ultra logging
                 var pageItems = await HtmlPageParser.GetPageItems(url);
                 var pageItemsSerialized = MessagePackSerializer.Serialize(pageItems);
                 await CrawlerApi.PostPageInfoAsync(pageItemsSerialized);
-
+                
                 logger.LogInformation($"Page getted: {url}");
             }
             catch (Exception)
