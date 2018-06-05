@@ -23,12 +23,17 @@ namespace SearchPage.Controllers
         [HttpPost]
         public async Task<IActionResult> Search(string query)
         {
-            // ISearchProvider search
-            _logger.LogWarning($"Not implemented search complete");
+            _logger.LogInformation($"Search of {query} started");
+            
             HttpClient client = new HttpClient();
             var data = await client.GetStringAsync($"http://localhost:50494/api/v1/search?request={query}");
 
-            return View(JsonConvert.DeserializeObject<IEnumerable<string>>(data));
+            var urlsDict = JsonConvert.DeserializeObject<IDictionary<string, double>>(data);
+
+            var resultView = View(urlsDict.OrderByDescending(pair => pair.Value).ToList());
+            resultView.ViewData.TryAdd("Query", query);
+
+            return resultView;
         }
         
         public IActionResult Index()

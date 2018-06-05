@@ -1,16 +1,31 @@
-﻿@model IList<string>
+﻿@model IList<KeyValuePair<string, double>>
 
 @{
     ViewBag.Title = "title";
     Layout = "_Layout";
 }
 
-<ul>
-    @foreach (var searchRes in Model)
-    {
-        <li>
-            <h3>@searchRes</h3>
-            <text>Rating 0.666</text>
-        </li>
-    }
-</ul>
+<div class="container-fluid">
+    <ul>
+        @if (Model.Count > 0)
+        {
+            @foreach (var searchRes in Model)
+            {
+                <div class="row">
+                    <div class="col-sm-offset-1 col-sm-8">
+                        <li>
+                            <h4>@searchRes.Key</h4>
+                            <a href="@searchRes.Key">    [ Link ]</a>
+                            <p>    Search rating of page: @searchRes.Value.ToString()</p>
+                        </li>
+                    </div>
+                </div>
+            }
+        } 
+        else {
+            <li>
+                <h3>No Results</h3>
+            </li>   
+        }
+    </ul>
+</div>
