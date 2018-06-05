@@ -7,6 +7,6 @@ namespace WikiCrawler
     public interface ICrawler : IDisposable
     {
         void Subscribe(Action<string> onNext, Action onComplete);
-        Task StartCrawling(string startUri);
+        Task StartCrawling(string baseUri, string startUri);
     }
 }

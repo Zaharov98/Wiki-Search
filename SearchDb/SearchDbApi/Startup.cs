@@ -12,7 +12,9 @@ using Microsoft.EntityFrameworkCore;
 using NLog.Extensions.Logging;
 using NLog.Web;
 using SearchDbApi.Data.Context;
+using SearchDbApi.Data.Sql;
 using SearchDbApi.Indexer;
+using SearchDbApi.Search;
 
 namespace SearchDbApi
 {
@@ -29,11 +31,28 @@ namespace SearchDbApi
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddMvc();
-            services.AddEntityFrameworkSqlServer()
-                    .AddDbContext<WordsDbContext>(
-                (options) => options.UseSqlServer(Configuration["ConnectionString"])
-            );
+
+            if (Configuration["Env"] == "Local") {
+                services.AddEntityFrameworkSqlite()
+                        .AddDbContext<WordsDbContext>(
+                            (options) => options.UseSqlite(Configuration["Local:ConnectionString"]),
+                            ServiceLifetime.Scoped
+                        );
+
+                services.AddScoped<SqlReader>((service) => new SqlReader(Configuration["Local:ConnectionString"]));
+            }
+            else if (Configuration["Env"] == "Dev") {
+                services.AddEntityFrameworkSqlServer()
+                        .AddDbContext<WordsDbContext>(
+                    (options) => options.UseSqlServer(Configuration["Dev:ConnectionString"]),
+                    ServiceLifetime.Scoped
+                );
+
+                services.AddScoped<SqlReader>((service) => new SqlReader(Configuration["Dev:ConnectionString"]));
+            }
+            
             services.AddScoped<IPageIndexer, SearchDbIndexer>();
+            services.AddScoped<ISearch, WikiSearch>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

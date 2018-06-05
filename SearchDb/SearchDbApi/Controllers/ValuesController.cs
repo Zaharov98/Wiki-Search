@@ -34,9 +34,9 @@ namespace SearchDbApi.Controllers
 
         // GET api/v1/values/5
         [HttpGet("{id}")]
-        public string Get(int id)
+        public string Get(string id)
         {
-            Word word = context.Words.FirstOrDefault(w => w.WordId == id);
+            Word word = context.Words.FirstOrDefault(w => w.Value == id);
 
             return $"{word.Value}:{id}";
         }

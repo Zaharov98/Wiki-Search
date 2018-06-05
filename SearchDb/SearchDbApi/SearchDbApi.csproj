@@ -21,8 +21,10 @@
 
   <ItemGroup>
     <ProjectReference Include="..\IPageIndexer\IPageIndexer.csproj" />
+    <ProjectReference Include="..\ISearch\ISearch.csproj" />
     <ProjectReference Include="..\SearchDbApi.Data\SearchDbApi.Data.csproj" />
     <ProjectReference Include="..\SearchDbIndexer\SearchDbIndexer.csproj" />
+    <ProjectReference Include="..\WikiSearch\WikiSearch.csproj" />
   </ItemGroup>
 
 </Project>

@@ -2,9 +2,11 @@
 using System.Collections.Generic;
 using System.Diagnostics;
 using System.Linq;
+using System.Net.Http;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
+using Newtonsoft.Json;
 using SearchPage.Models;
 
 namespace SearchPage.Controllers
@@ -19,12 +21,14 @@ namespace SearchPage.Controllers
         }
 
         [HttpPost]
-        public IActionResult Search(string query)
+        public async Task<IActionResult> Search(string query)
         {
             // ISearchProvider search
             _logger.LogWarning($"Not implemented search complete");
+            HttpClient client = new HttpClient();
+            var data = await client.GetStringAsync($"http://localhost:50494/api/v1/search?request={query}");
 
-            return View(new List<string>(){query, "result 1", "result 2", "result 3"});
+            return View(JsonConvert.DeserializeObject<IEnumerable<string>>(data));
         }
         
         public IActionResult Index()

@@ -49,7 +49,7 @@ namespace WikiCrawler.HttpCrawler
         }
 
 
-        public async Task StartCrawling(string startUri)
+        public async Task StartCrawling(string baseUri, string startUri)
         {
             if (!ValidParsedHttpUri(startUri)) {
                 throw new ArgumentException("Invalid initial uri for crawling");
@@ -68,7 +68,7 @@ namespace WikiCrawler.HttpCrawler
                         loopedUris.Add(uri);
 
                         var htmlDoc = ParseHtmlCode(htmlPageCode);
-                        var docUris = FetchHtmDocUris(baseUri: uri, htmlDoc);
+                        var docUris = FetchHtmDocUris(baseUri: baseUri, htmlDoc);
                         foreach (var fetched in docUris) {
                             if (_isAcceptableUri(fetched)) 
                             {

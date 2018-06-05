@@ -26,9 +26,8 @@ namespace PageInfoCrawler
         {
             try
             {
-                Task.Delay(30000).Wait(); // Database is weak
+                Task.Delay(20000).Wait(); // Database is weak
 
-                Console.WriteLine(url); // Ultra logging
                 var pageItems = await HtmlPageParser.GetPageItems(url);
                 var pageItemsSerialized = MessagePackSerializer.Serialize(pageItems);
                 await CrawlerApi.PostPageInfoAsync(pageItemsSerialized);

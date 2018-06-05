@@ -44,9 +44,11 @@ namespace SearchDbApi.Controllers
                 var wordsLocation = ValidateWordsLocationDict(data); 
                 await _indexer.AddToIndexAsync(baseUri, links, wordsLocation);
 
+                _logger.LogInformation($"Status Ok {baseUri}");
                 return this.Ok();
             }
             else {
+                _logger.LogInformation($"Bad Request");
                 return this.NoContent();
             }
         }

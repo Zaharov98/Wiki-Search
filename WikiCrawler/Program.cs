@@ -43,7 +43,7 @@ namespace WikiCrawler
                 using (ICrawler crawler = new HttpLinksCrawler(filter.AcceptUri, logFactory.CreateLogger<HttpLinksCrawler>()))
                 {
                     crawler.Subscribe(queueSender.SendToQueue, () => queueSender.Dispose());
-                    await crawler.StartCrawling(Configuration["StartUri"]);
+                    await crawler.StartCrawling(Configuration["BaseUri"], Configuration["StartUri"]);
                 }
             }
             catch (Exception e)

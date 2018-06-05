@@ -1,2 +1,8 @@
-2018/05/28 13:25:23.637|INFO|GET getted: hello world |SearchDbApi.Controllers.SearchController|
-2018/05/28 13:25:24.008|INFO|GET getted: hello world |SearchDbApi.Controllers.SearchController|
+2018/06/05 15:11:58.468|INFO|GET getted: functional programming |SearchDbApi.Controllers.SearchController|
+2018/06/05 15:11:58.562|INFO|GET getted: functional programming |SearchDbApi.Controllers.SearchController|
+2018/06/05 15:12:04.570|INFO|GET getted: system |SearchDbApi.Controllers.SearchController|
+2018/06/05 15:12:04.578|INFO|GET getted: system |SearchDbApi.Controllers.SearchController|
+2018/06/05 15:12:07.878|INFO|GET getted: bla bla bla bla |SearchDbApi.Controllers.SearchController|
+2018/06/05 15:12:07.878|INFO|GET getted: bla bla bla bla |SearchDbApi.Controllers.SearchController|
+2018/06/05 15:12:11.420|INFO|GET getted:  |SearchDbApi.Controllers.SearchController|
+2018/06/05 15:12:11.425|INFO|GET getted:  |SearchDbApi.Controllers.SearchController|

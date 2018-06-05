@@ -25,6 +25,7 @@ namespace SearchDbApi.Indexer
                 {// No sence to try to aviod some data dublication in this context
                  // so the ALTER TABLE [TableName] REBUILD WITH (IGNORE_DUP_KEY = ON);
                  // was used
+
                     var urlObj = await FindUrlAsync(url);
                     if (urlObj == null || urlObj.Indexed == false) 
                     {
@@ -42,7 +43,7 @@ namespace SearchDbApi.Indexer
                         await _context.SaveChangesAsync();
                     }
                 }
-                Console.WriteLine(url); //Ultra logging
+
                 return true;
             }
             catch (Exception e)

@@ -9,6 +9,7 @@ namespace WikiCrawler.WikiUriFilter
         private ISet<string> _recentlyVisitedSet;
         private static int _recentlyVisitedSetMaxSize = 4000;
 
+        private static string[] _imageTypes = new string[] { ".jpg", ".svg", ".ogg", ".gif", ".png", };
         private static string _requaeredSubstring = "://en.wikipedia.org";
 
         public EnglishWikiFilter()
@@ -18,7 +19,7 @@ namespace WikiCrawler.WikiUriFilter
 
         public bool AcceptUri(string uri)
         {
-            if (uri.Contains(_requaeredSubstring)) 
+            if (uri.Contains(_requaeredSubstring) && !IsImage(uri)) 
             {
                 if (!_recentlyVisitedSet.Contains(uri)) {
                     MarkAsVisited(uri);
@@ -31,6 +32,17 @@ namespace WikiCrawler.WikiUriFilter
             else {
                 return false;
             }
+        }
+
+        private bool IsImage(string uri)
+        {
+            foreach (var type in _imageTypes) {
+                if (uri.EndsWith(type)) {
+                    return true;
+                }
+            }
+
+            return false;
         }
 
         private void MarkAsVisited(string uri)
