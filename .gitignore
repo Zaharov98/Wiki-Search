@@ -25,13 +25,14 @@ WikiCrawler/var/QueueLog.txt
 SearchDb/.vs
 SearchDb/SearchDbApi/bin
 SearchDb/SearchDbApi/obj
-SearchDb/SearchDbApi/var/CrawlerLog.txt
+SearchDb/SearchDbApi/var/
 
 # PageInfoCrawler
 PageInfoCrawler/bin
 PageInfoCrawler/obj
 PageInfoCrawler/.idea
 PageInfoCrawler/.vs
+PageInfoCrawler/var/
 
 # User-specific files
 *.suo

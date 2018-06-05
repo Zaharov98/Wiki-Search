@@ -1,2 +1,0 @@
-2018/06/05 15:25:05.477|INFO|Connected to Queue: links |PageInfoCrawler.AmqpLinksReciver.QueueReciver|
-2018/06/05 15:25:07.237|INFO|Start listening the queue links, main thread blocked |PageInfoCrawler.AmqpLinksReciver.QueueReciver|
